@@ -1,5 +1,7 @@
 ---
-layout: "../layouts/Post.astro"
+layout: "../layouts/MDPost.astro"
+title: "my motherfucking website"
+description: "a motherfucking description"
 tags: ["markdown"]
 ---
 

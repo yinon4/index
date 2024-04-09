@@ -1,0 +1,10 @@
+---
+import PostLayout, { type Props as PostProps } from "./Post.astro";
+
+type Props = { frontmatter: PostProps };
+const props = Astro.props.frontmatter;
+---
+
+<PostLayout {...props}>
+  <slot />
+</PostLayout>

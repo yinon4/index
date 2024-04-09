@@ -10,20 +10,14 @@ type Props = {
 const { title, description } = Astro.props;
 ---
 
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
-    />
     <link rel="icon" href="/favicon.svg" />
     <title>{title}</title>
     <meta name="description" content={description} />
   </head>
-  <body>
+  <body class="-dark">
     <Header />
     <!-- sidebar -->
     <div>
@@ -33,14 +27,18 @@ const { title, description } = Astro.props;
   </body>
   <style>
     body {
-      margin: auto;
-      max-width: 65ch;
-      line-height: 1.6;
-      font-size: 20px;
-      color: #444;
-      padding: 10px;
-
-      /* font-family: "Raleway", sans-serif; */
+      line-height: 2;
+      margin-block: 3em;
+      margin-inline: auto;
+      max-width: 650px;
+      font-size: 18px;
+      color: #292524; /* stone 800 */
+      background-color: #e7e5e4; /* stone 200 */
+      padding: 0 10px;
+    }
+    body.dark {
+      color: #e7e5e4; /* stone 200 */
+      background-color: #292524; /* stone 800 */
     }
   </style>
 </html>
