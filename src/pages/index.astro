@@ -1,5 +1,6 @@
 ---
 import Comp from "../components/Comp.astro";
+import Lay from "../layouts/Base.astro";
 
 // Welcome to Astro! Everything between these triple-dash code fences
 // is your "component frontmatter". It never runs in the browser.
@@ -9,8 +10,8 @@ const arr = [11, 2, 3];
 
 <!-- Below is your "component template." It's just HTML, but with
      some magic sprinkled in to help you build great templates. -->
-<html>
-  <body class="prose">
+<Lay title="index" description="just the index">
+  <article class="prose">
     <h1 class="text-9xl text-green-600">{text}</h1>
     <Comp>
       <ul>
@@ -20,5 +21,5 @@ const arr = [11, 2, 3];
     </Comp>
     <Comp text="asmjvdf" />
     <Comp />
-  </body>
-</html>
+  </article>
+</Lay>
