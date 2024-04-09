@@ -4,8 +4,6 @@ import PostLayout, { type Props as PostProps } from "./Post.astro";
 type Props = { frontmatter: PostProps; rawContent: () => string };
 const props = Astro.props.frontmatter;
 
-console.log(Astro.props);
-
 const words = Astro.props.rawContent().trim().split(/\s+/).length;
 ---
 

@@ -1,20 +1,20 @@
----
-const path = Astro.url.pathname.replace("/", " / ").trim();
----
-
 <nav>
-  <div>Logo.png {path}</div>
-  <div>Search</div>
+  <!-- maybe no bakc -->
+  <!-- only for animatiosn -->
+  <div>← back</div>
+  <div>logo</div>
+  <div>art</div>
+  <div>music</div>
+  <div>photography</div>
+  <div>movies</div>
+  <div>misc</div>
+  <!-- maybe no search -->
+  <div>search</div>
 </nav>
 <style>
   nav {
     padding-block: 1rem;
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-  }
-  div {
-    background-color: inherit;
   }
 </style>

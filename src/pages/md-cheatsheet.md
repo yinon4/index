@@ -95,11 +95,10 @@ Markdown applications support these elements.
 
 Here's a sentence with a footnote. [^1]
 
+Here's another sentence with a footnote. [^2]
+
 [^1]: This is the footnote.
-
-### Definition List
-
-term : definition
+[^2]: This is another footnote.
 
 ### Strikethrough
 
@@ -110,7 +109,3 @@ term : definition
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
-
-### Emoji
-
-😀

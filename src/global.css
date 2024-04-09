@@ -1,0 +1,35 @@
+:root {
+  --bg-light: #e7e5e4; /* stone 200 */
+  --bg-dark: #292524; /* stone 800 */
+  --text-light: var(--bg-light);
+  --text-dark: var(--bg-dark);
+}
+img {
+  max-width: 100%;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+* {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+a {
+  color: unset;
+}
+body {
+  margin-inline: auto;
+  max-width: 70ch;
+  padding: 0 10px;
+
+  line-height: 2;
+  font-size: 18px;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+  margin-top: 0;
+}
+body.dark {
+  color: var(--text-light);
+  background-color: var(--bg-dark);
+}

@@ -1,7 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
-import "../styles.css";
+import "../global.css";
 
 type Props = {
   title: string;
@@ -18,7 +18,7 @@ const { title, description } = Astro.props;
     <title>{title}</title>
     <meta name="description" content={description} />
   </head>
-  <body class="dark">
+  <body class="adark" id="top">
     <Header />
     <!-- sidebar -->
     <main>
