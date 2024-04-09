@@ -1,0 +1,22 @@
+---
+import Layout from "./Base.astro";
+
+type Props = {
+  title: string;
+  description: string;
+  date?: string;
+  tags?: string[];
+  readingTime?: string;
+};
+
+const { title, description, date, tags, readingTime } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <div>
+    <article class="prose">
+      <slot />
+    </article>
+    <!-- toc -->
+  </div>
+</Layout>
