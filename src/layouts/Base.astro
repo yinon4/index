@@ -13,11 +13,17 @@ const { title, description } = Astro.props;
 <html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap"
+    />
     <link rel="icon" href="/favicon.svg" />
     <title>{title}</title>
     <meta name="description" content={description} />
   </head>
-  <body class="bg-white dark:bg-black">
+  <body class="bg-white dark:bg-gray-900">
     <Header />
     <!-- sidebar -->
     <div class="mx-auto max-w-prose">
