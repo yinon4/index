@@ -1,0 +1,16 @@
+---
+interface Props {
+  text?: string;
+}
+
+const { text = "default" } = Astro.props;
+---
+
+<div>
+  <h1 class="text-4xl text-red-400">
+    {text}
+  </h1>
+  <slot name="hwllo" />
+  <slot> slout </slot>
+  <slot />
+</div>
