@@ -1,4 +1,3 @@
-import typography from "@tailwindcss/typography";
 import colors from "tailwindcss/colors";
 
 /** @type {import('tailwindcss').Config} */
@@ -14,5 +13,4 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [typography],
 };

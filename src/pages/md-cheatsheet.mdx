@@ -134,8 +134,14 @@ Curly braces in MDX escape to JavaScript, so they can't be used to assign ids.
 Use JSX instead
 
 ```jsx
-<h1 id="custom-id">My Great Heading</h1>
+<h1 id="custom-id" style={{ color: "green" }}>
+  My Great Heading
+</h1>
 ```
+
+<h1 id="custom-id" style={{ color: "green" }}>
+  My Great Heading
+</h1>
 
 ### Emoji — ❌ unsupported
 
@@ -145,14 +151,16 @@ That is so funny! :joy:
 
 Use your system emoji picker instead.
 
+😀
+
 ### Highlight — ❌ unsupported
 
 I need to highlight these ==very important words==.
 
-### Subscript
+### Subscript ❌ weird
 
 H~2~O
 
-### Superscript
+### Superscript ❌ weird
 
 X^2^
