@@ -1,7 +1,7 @@
 ---
 layout: "../layouts/MDPost.astro"
-title: 'my md cheatshet'
-description: 'i stole this from the internet'
+title: "my md cheatshet"
+description: "i stole this from the internet"
 tags: ["markdown"]
 ---
 
@@ -67,10 +67,6 @@ If you really want to emphasize something, try **_bold and italic text_**.
 - Second item
 - Third item
 
-### Code
-
-And here's some `inline code` surrounded with ordinary text.
-
 ### Horizontal Rule
 
 ---
@@ -95,16 +91,6 @@ Markdown applications support these elements.
 | Header    | Title       |
 | Paragraph | Text        |
 
-### Fenced Code Block
-
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
-
 ### Footnote
 
 Here's a sentence with a footnote. [^1]
@@ -125,44 +111,6 @@ term : definition
 - [ ] Update the website
 - [ ] Contact the media
 
-### Heading ID — ❌ unsupported
-
-Curly braces in MDX escape to JavaScript, so they can't be used to assign ids.
-
-```md
-### My Great Heading {#custom-id}
-```
-
-Use JSX instead
-
-```jsx
-<h1 id="custom-id" style={{ color: "green" }}>
-  My Great Heading
-</h1>
-```
-
-<h1 id="custom-id" style={{ color: "green" }}>
-  My Great Heading
-</h1>
-
-### Emoji — ❌ unsupported
-
-```
-That is so funny! :joy:
-```
-
-Use your system emoji picker instead.
+### Emoji
 
 😀
-
-### Highlight — ❌ unsupported
-
-I need to highlight these ==very important words==.
-
-### Subscript ❌ weird
-
-H~2~O
-
-### Superscript ❌ weird
-
-X^2^

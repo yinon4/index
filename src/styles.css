@@ -1,0 +1,26 @@
+main {
+  margin-inline: auto;
+  max-width: 70ch;
+  padding: 0 10px;
+}
+img {
+  max-width: 100%;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+* {
+  scrollbar-width: none;
+}
+body {
+  line-height: 2;
+  font-size: 18px;
+  color: #292524; /* stone 800 */
+  background-color: #e7e5e4; /* stone 200 */
+  margin-top: 0;
+}
+body.dark {
+  color: #e7e5e4; /* stone 200 */
+  background-color: #292524; /* stone 800 */
+}

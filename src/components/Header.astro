@@ -1,4 +1,20 @@
-<div>
-  <div>Logo.png/clickable/path/to/file</div>
+---
+const path = Astro.url.pathname.replace("/", " / ").trim();
+---
+
+<nav>
+  <div>Logo.png {path}</div>
   <div>Search</div>
-</div>
+</nav>
+<style>
+  nav {
+    padding-block: 1rem;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+  }
+  div {
+    background-color: inherit;
+  }
+</style>

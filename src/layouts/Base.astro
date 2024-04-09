@@ -1,6 +1,7 @@
 ---
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import "../styles.css";
 
 type Props = {
   title: string;
@@ -17,28 +18,12 @@ const { title, description } = Astro.props;
     <title>{title}</title>
     <meta name="description" content={description} />
   </head>
-  <body class="-dark">
+  <body class="dark">
     <Header />
     <!-- sidebar -->
-    <div>
+    <main>
       <slot />
-    </div>
+    </main>
     <Footer />
   </body>
-  <style>
-    body {
-      line-height: 2;
-      margin-block: 3em;
-      margin-inline: auto;
-      max-width: 650px;
-      font-size: 18px;
-      color: #292524; /* stone 800 */
-      background-color: #e7e5e4; /* stone 200 */
-      padding: 0 10px;
-    }
-    body.dark {
-      color: #e7e5e4; /* stone 200 */
-      background-color: #292524; /* stone 800 */
-    }
-  </style>
 </html>
