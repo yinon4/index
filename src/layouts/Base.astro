@@ -23,10 +23,10 @@ const { title, description } = Astro.props;
     <title>{title}</title>
     <meta name="description" content={description} />
   </head>
-  <body class="text-gray-400 dark:bg-gray-900">
+  <body>
     <Header />
     <!-- sidebar -->
-    <div class="mx-auto max-w-prose">
+    <div>
       <slot />
     </div>
     <Footer />

@@ -11,13 +11,13 @@ const arr = [11, 2, 3];
 <!-- Below is your "component template." It's just HTML, but with
      some magic sprinkled in to help you build great templates. -->
 <Post title="index" description="just the index">
-  <h1 class="text-9xl text-green-600">{text}</h1>
+  <h1>{text}</h1>
   <a href="/md-cheatsheet">md cheatsheet</a>
   <Comp>
     <ul>
       {arr.map((num) => <li>{num}</li>)}
     </ul>
-    <h1 class="text-9xl text-red-500" slot="hwllo">asdf</h1>
+    <h1 slot="hwllo">asdf</h1>
   </Comp>
   <Comp text="asmjvdf" />
   <Comp />
