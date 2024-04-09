@@ -1,20 +1,30 @@
 <nav>
-  <!-- maybe no bakc -->
-  <!-- only for animatiosn -->
-  <div>← back</div>
-  <div>logo</div>
-  <div>art</div>
-  <div>music</div>
-  <div>photography</div>
-  <div>movies</div>
-  <div>misc</div>
-  <!-- maybe no search -->
-  <div>search</div>
+  <span>
+    <a href="/">index</a>
+    <a href="/">thots</a>
+    <a href="/md-cheatsheet">feewings</a>
+    <a href="mf-website">art</a>
+    <a href="">...</a>
+  </span>
 </nav>
 <style>
+  * {
+    height: 1.5rem;
+  }
   nav {
     padding-block: 1rem;
+  }
+  span {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  a {
+    text-decoration: none;
+    filter: brightness(50%);
+  }
+  a:hover {
+    filter: brightness(80%);
+    text-decoration: wavy underline;
   }
 </style>
