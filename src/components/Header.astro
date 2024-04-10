@@ -1,30 +1,20 @@
 <nav>
-  <span>
+  <div>
     <a href="/">index</a>
     <a href="/">thots</a>
-    <a href="/md-cheatsheet">feewings</a>
+    <a href="/md-cheatsheet">feefees</a>
     <a href="mf-website">art</a>
     <a href="">...</a>
-  </span>
+  </div>
 </nav>
 <style>
-  * {
-    height: 1.5rem;
-  }
-  nav {
-    padding-block: 1rem;
-  }
-  span {
+  div {
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
-  }
-  a {
-    text-decoration: none;
-    filter: brightness(50%);
+    flex-wrap: wrap;
   }
   a:hover {
-    filter: brightness(80%);
     text-decoration: wavy underline;
   }
 </style>

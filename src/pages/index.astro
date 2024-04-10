@@ -1,5 +1,4 @@
 ---
-import Comp from "../components/Comp.astro";
 import Post from "../layouts/Post.astro";
 
 // Welcome to Astro! Everything between these triple-dash code fences
@@ -15,12 +14,8 @@ const arr = [11, 2, 3];
   <a href="/md-cheatsheet">md cheatsheet</a>
   <br />
   <a href="/mf-website">motherfucking website</a>
-  <Comp>
-    <ul>
-      {arr.map((num) => <li>{num}</li>)}
-    </ul>
-    <h1 slot="hwllo">asdf</h1>
-  </Comp>
-  <Comp text="asmjvdf" />
-  <Comp />
+  <ul>
+    {arr.map((num) => <li>{num}</li>)}
+  </ul>
+  <h1 slot="hwllo">asdf</h1>
 </Post>
