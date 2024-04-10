@@ -1,7 +1,13 @@
 ---
-import PageLayout from "../../layouts/Post.astro";
+import { createLinks } from "../../functions.astro";
+import Post from "../../layouts/Post.astro";
+
+const path = Astro.url.pathname;
+const subFolders = await Astro.glob("./*/index.*");
+
+const links = createLinks(subFolders);
 ---
 
-<PageLayout title="art" description="art">
+<Post title="art" description="art" links={links}>
   <h1>art</h1>
-</PageLayout>
+</Post>

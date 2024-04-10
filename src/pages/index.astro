@@ -1,21 +1,10 @@
 ---
+import { createLinks } from "../functions.astro";
 import Post from "../layouts/Post.astro";
 
-// Welcome to Astro! Everything between these triple-dash code fences
-// is your "component frontmatter". It never runs in the browser.
-const text = "Hello, asdfasfd!";
-const arr = [11, 2, 3];
+const subFolders = await Astro.glob("./*/*");
+const folderFiles = await Astro.glob("./*");
+const links = createLinks([...folderFiles, ...subFolders]);
 ---
 
-<!-- Below is your "component template." It's just HTML, but with
-     some magic sprinkled in to help you build great templates. -->
-<Post title="index" description="just the index">
-  <h1>{text}</h1>
-  <a href="/md-cheatsheet">md cheatsheet</a>
-  <br />
-  <a href="/mf-website">motherfucking website</a>
-  <ul>
-    {arr.map((num) => <li>{num}</li>)}
-  </ul>
-  <h1 slot="hwllo">asdf</h1>
-</Post>
+<Post title="index of" description="index of" links={links} />

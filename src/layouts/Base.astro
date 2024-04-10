@@ -1,14 +1,14 @@
 ---
 import { ViewTransitions } from "astro:transitions";
-import Header from "../components/Header.astro";
+import Header, { type Props as HeaderProps } from "../components/Header.astro";
 import "../global.css";
 
-type Props = {
+export interface Props extends HeaderProps {
   title: string;
   description: string;
-};
+}
 
-const { title, description } = Astro.props;
+const { title, description, ...headerProps } = Astro.props;
 ---
 
 <html lang="en">
@@ -22,7 +22,7 @@ const { title, description } = Astro.props;
     <meta name="description" content={description} />
   </head>
   <body>
-    <Header />
+    <Header {...headerProps} />
     <!-- sidebar -->
     <main>
       <slot />

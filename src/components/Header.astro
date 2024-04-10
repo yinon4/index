@@ -1,16 +1,32 @@
+---
+type link = {
+  href: string;
+  text: string;
+};
+
+export interface Props {
+  links?: link[];
+}
+
+const { links } = Astro.props;
+const path = Astro.url.pathname;
+
+let backref = path.split("/").slice(0, -1).join("/");
+if (backref === "") {
+  backref = "/";
+}
+---
+
 <nav>
   <div>
-    <a href="/">index</a>
-    <a href="/thots">thots</a>
-    <a href="/feefees">feefees</a>
-    <a href="art">art</a>
-    <a href="/dotdotdot">...</a>
+    {path != backref && <a href={backref}>← back</a>}
+    {links && links.map((link) => <a href={link.href}>{link.text}</a>)}
   </div>
 </nav>
 <style>
   div {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
   }

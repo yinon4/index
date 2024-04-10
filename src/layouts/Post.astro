@@ -1,22 +1,18 @@
 ---
-import Layout from "./Base.astro";
+import Layout, { type Props as BaseProps } from "./Base.astro";
 
-export type Props = {
-  title: string;
-  description: string;
+export interface Props extends BaseProps {
   date?: string;
   tags?: string[];
   readingTime?: string;
-};
+}
 
-const { title, description, date, tags, readingTime } = Astro.props;
+const { date, tags, readingTime, ...baseProps } = Astro.props;
 ---
 
-<Layout title={title} description={description}>
-  <div>
-    <article>
-      <slot />
-    </article>
-    <!-- toc -->
-  </div>
+<Layout {...baseProps}>
+  <!-- delete articel ? -->
+  <article>
+    <slot />
+  </article>
 </Layout>
