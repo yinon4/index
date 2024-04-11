@@ -5,15 +5,18 @@ const createLink = (path: string) => ({
   text: path.split("/").pop(),
 });
 
-const blog = (await getCollection("blog")) ?? [];
+const normalizeIndexSlug = (slug: string) => (slug === "index" ? "" : slug);
 
-export const getBlog = () => {
-  return blog;
-};
+const blog = ((await getCollection("blog")) ?? []).map(
+  ({ slug, ...entry }) => ({
+    slug: normalizeIndexSlug(slug),
+    ...entry,
+  }),
+);
 
-export const getFolderContent = (path: string) => {
-  const folder = blog
+export const getBlog = () => blog;
+
+export const getFolderContent = (path: string) =>
+  blog
     .filter((post) => post.slug.startsWith(path) && post.slug !== path)
     .map((post) => createLink(post.slug));
-  return folder;
-};

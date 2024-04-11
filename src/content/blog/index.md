@@ -3,4 +3,4 @@ title: index
 tags: []
 ---
 
-index of thots
+index of
