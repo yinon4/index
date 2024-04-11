@@ -1,21 +1,21 @@
 ---
-title: index
+title: index of
 tags: []
 ---
 
-index of
-
 TODO
 
-- change colors
-- responsivity
-- seo
-- links
-- transitions
-- fun to use
-- fun to hover click buttons
+- [ ] change colors
+- [ ] responsivity
+- [ ] seo
+- [ ] links
+- [ ] transitions
+  - [ ] fancy transitions with header?
+- [ ] fun to use
+- [ ] fun to hover click buttons
 -
-- tags
-- music art logs
-- footer for readability
-- "bottom." "top?"
+- [ ] tags
+- [ ] music art logs
+- [ ] footer for readability
+- [x] "bottom." "top?"
+- [ ] checkmarks contrast boost
