@@ -1,23 +1,28 @@
 ---
-import { getCollection } from "astro:content";
+import { getBlog, getFolderContent } from "../functions";
 import Post from "../layouts/Post.astro";
 
 export async function getStaticPaths() {
-  const blogEntries = await getCollection("blog");
-  return blogEntries.map((entry) => ({
-    params: { slug: entry.slug },
-    props: { ...entry },
-  }));
+  const blogEntries = getBlog();
+  return blogEntries.map((entry) => {
+    return {
+      params: { slug: entry.slug },
+      props: { ...entry, linksTo: getFolderContent(entry.slug) },
+    };
+  });
 }
 
 const {
   render,
+  linksTo,
   data: { title, tags },
 } = Astro.props;
+
+console.log(linksTo);
 
 const { Content } = await render();
 ---
 
-<Post title={title} description={title} links={[]}>
+<Post title={title} description={title} links={linksTo}>
   <Content />
 </Post>
