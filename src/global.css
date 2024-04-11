@@ -1,8 +1,31 @@
 :root {
-  --dark: #0d1117;
-  --light: #c9d1d9;
-}
+  --z: #000000;
+  --i: #1a1a1a;
+  --ii: #333333;
+  --iii: #4d4d4d;
+  --iv: #666666;
+  --v: #808080;
+  --vi: #999999;
+  --vii: #b3b3b3;
+  --viii: #cccccc;
+  --ix: #e7e7e7;
+  --ix: #ffffff;
 
+  --bg: var(--ix);
+  --txt-more: var(--i);
+  --txt: var(--iii);
+  --txt-less: var(--v);
+  --txt-least: var(--vii);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--i);
+    --txt-more: var(--ix);
+    --txt: var(--vii);
+    --txt-less: var(--v);
+    --txt-least: var(--iii);
+  }
+}
 body {
   max-width: 65ch;
   margin: 1rem auto;
@@ -20,31 +43,24 @@ body {
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
-  color: #444;
+  color: var(--txt);
+  background-color: var(--bg);
   line-height: 2;
 }
-
 h1,
 h2,
 h3 {
   line-height: 1.2;
 }
 a:link {
-  color: unset;
-  opacity: 0.66;
+  color: var(--txt-less);
   text-decoration: none;
 }
-a:hover {
-  opacity: 0.33;
-}
 a:visited {
-  color: unset;
+  color: var(--txt-less);
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    color: var(--light);
-    background: var(--dark);
-  }
+a:hover {
+  color: var(--txt-least);
 }
 * {
   scrollbar-width: none;
@@ -56,6 +72,6 @@ table {
   width: 100%;
 }
 ::selection {
-  background: var(--dark);
-  color: var(--dark);
+  background-color: var(--txt-least);
+  color: var(--txt-more);
 }
