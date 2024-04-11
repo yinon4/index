@@ -1,3 +1,8 @@
+:root {
+  --dark: #0d1117;
+  --light: #c9d1d9;
+}
+
 body {
   max-width: 65ch;
   margin: 1rem auto;
@@ -16,6 +21,7 @@ body {
     "Segoe UI Symbol",
     "Noto Color Emoji";
   color: #444;
+  line-height: 2;
 }
 
 h1,
@@ -25,27 +31,19 @@ h3 {
 }
 a:link {
   color: unset;
-  filter: brightness(3);
+  opacity: 0.66;
   text-decoration: none;
 }
 a:hover {
-  filter: brightness(2);
+  opacity: 0.33;
 }
 a:visited {
   color: unset;
 }
 @media (prefers-color-scheme: dark) {
   body {
-    color: #c9d1d9;
-    background: #0d1117;
-  }
-  a:link {
-    color: unset;
-    filter: brightness(0.5);
-    text-decoration: none;
-  }
-  a:hover {
-    filter: brightness(0.75);
+    color: var(--light);
+    background: var(--dark);
   }
 }
 * {
@@ -56,4 +54,8 @@ img {
 }
 table {
   width: 100%;
+}
+::selection {
+  background: var(--dark);
+  color: var(--dark);
 }

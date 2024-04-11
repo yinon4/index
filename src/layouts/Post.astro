@@ -11,8 +11,5 @@ const { date, tags, readingTime, ...baseProps } = Astro.props;
 ---
 
 <Layout {...baseProps}>
-  <!-- delete articel ? -->
-  <article>
-    <slot />
-  </article>
+  <slot />
 </Layout>
