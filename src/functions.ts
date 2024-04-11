@@ -20,6 +20,7 @@ const countSlashes = (path: string) => {
   if (!matches) return 0;
   return matches.length;
 };
+
 const isChildPath = (parentPath: string, path: string) =>
   path.startsWith(parentPath) &&
   countSlashes(path) === countSlashes(parentPath) + 1;
