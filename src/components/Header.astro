@@ -11,7 +11,9 @@ export interface Props {
 const { links } = Astro.props;
 const path = Astro.url.pathname;
 
-let backref = path.split("/").slice(0, -1).join("/");
+// remove trailing / for if exists
+// then remove last part of path
+let backref = path.slice(0, -1).split("/").slice(0, -1).join("/");
 if (backref === "") {
   backref = "/";
 }

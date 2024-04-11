@@ -19,3 +19,4 @@ TODO
 - [x] footer for readability
 - [x] "bottom." "top?"
 - [x] checkmarks contrast boost
+- [ ] deploy
