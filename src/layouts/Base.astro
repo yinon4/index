@@ -1,5 +1,6 @@
 ---
 import { ViewTransitions } from "astro:transitions";
+import Footer from "../components/Footer.astro";
 import Header, { type Props as HeaderProps } from "../components/Header.astro";
 import "../global.css";
 
@@ -11,7 +12,7 @@ export interface Props extends HeaderProps {
 const { title, description, ...headerProps } = Astro.props;
 ---
 
-<html lang="en">
+<html lang="en" id="top">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,10 +23,12 @@ const { title, description, ...headerProps } = Astro.props;
     <meta name="description" content={description} />
   </head>
   <body>
-    <Header {...headerProps} />
-    <!-- sidebar -->
     <main>
-      <slot />
+      <Header {...headerProps} />
+      <content>
+        <slot />
+      </content>
+      <Footer />
     </main>
   </body>
 </html>

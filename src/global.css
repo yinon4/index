@@ -75,3 +75,6 @@ table {
   background-color: var(--txt-least);
   color: var(--txt-more);
 }
+html {
+  scroll-behavior: smooth;
+}
