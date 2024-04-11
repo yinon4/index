@@ -16,6 +16,6 @@ TODO
 -
 - [ ] tags
 - [ ] music art logs
-- [ ] footer for readability
+- [x] footer for readability
 - [x] "bottom." "top?"
-- [ ] checkmarks contrast boost
+- [x] checkmarks contrast boost

@@ -17,15 +17,6 @@
   --txt-less: var(--v);
   --txt-least: var(--vii);
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: var(--i);
-    --txt-more: var(--ix);
-    --txt: var(--vii);
-    --txt-less: var(--v);
-    --txt-least: var(--iii);
-  }
-}
 body {
   max-width: 65ch;
   margin: 1rem auto;
@@ -77,4 +68,21 @@ table {
 }
 html {
   scroll-behavior: smooth;
+}
+*:has(> input:checked) {
+  text-decoration: line-through;
+  /* remove from prod ? */
+  /* functional but not pretty */
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--i);
+    --txt-more: var(--ix);
+    --txt: var(--vii);
+    --txt-less: var(--v);
+    --txt-least: var(--iii);
+  }
+  /* input[type="checkbox"] {
+    filter: invert(1);
+  } */
 }
