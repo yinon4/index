@@ -7,16 +7,24 @@ const createLink = (path: string) => ({
 
 const normalizeIndexSlug = (slug: string) => (slug === "index" ? "" : slug);
 
-const blog = ((await getCollection("blog")) ?? []).map(
+export const blog = ((await getCollection("blog")) ?? []).map(
   ({ slug, ...entry }) => ({
     slug: normalizeIndexSlug(slug),
     ...entry,
   }),
 );
 
-export const getBlog = () => blog;
+const countSlashes = (path: string) => {
+  if (path === "") return -1;
+  const matches = path.match(/\//g);
+  if (!matches) return 0;
+  return matches.length;
+};
+const isChildPath = (parentPath: string, path: string) =>
+  path.startsWith(parentPath) &&
+  countSlashes(path) === countSlashes(parentPath) + 1;
 
-export const getFolderContent = (path: string) =>
+export const getFolderContent = (folderPath: string) =>
   blog
-    .filter((post) => post.slug.startsWith(path) && post.slug !== path)
+    .filter((post) => isChildPath(folderPath, post.slug))
     .map((post) => createLink(post.slug));

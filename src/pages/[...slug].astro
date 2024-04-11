@@ -1,21 +1,17 @@
 ---
-import { getBlog, getFolderContent } from "../functions";
+import { blog, getFolderContent } from "../functions";
 import Post from "../layouts/Post.astro";
 
-export async function getStaticPaths() {
-  const blogEntries = getBlog();
-  return blogEntries.map((entry) => {
-    return {
-      params: { slug: entry.slug },
-      props: { ...entry, linksTo: getFolderContent(entry.slug) },
-    };
-  });
-}
+export const getStaticPaths = async () =>
+  blog.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { ...entry, linksTo: getFolderContent(entry.slug) },
+  }));
 
 const {
   render,
   linksTo,
-  data: { title, tags },
+  data: { title },
 } = Astro.props;
 
 const { Content } = await render();
