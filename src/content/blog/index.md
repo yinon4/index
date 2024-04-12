@@ -9,6 +9,8 @@ TODO
 - [ ] responsivity
 - [ ] seo
 - [ ] links
+  - [x] styling
+  - [ ] more styling
 - [ ] transitions
   - [ ] fancy transitions with header?
 - [ ] fun to use
@@ -19,4 +21,7 @@ TODO
 - [x] footer for readability
 - [x] "bottom." "top?"
 - [x] checkmarks contrast boost
-- [ ] deploy
+- [x] deploy
+- [ ] prefetch on hover
+  - [ ] dev
+  - [ ] prod
