@@ -5,7 +5,7 @@ tags: []
 
 TODO
 
-- [ ] change colors
+- [x] change colors
 - [ ] responsivity
 - [ ] seo
 - [ ] links
