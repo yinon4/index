@@ -1,5 +1,4 @@
 ---
-layout: "../layouts/MDPost.astro"
 title: "my md cheatshet"
 description: "i stole this from the internet"
 tags: ["markdown"]

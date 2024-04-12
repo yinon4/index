@@ -5,7 +5,7 @@ tags: []
 
 TODO
 
-- [ ] change colors
+- [x] change colors
 - [ ] responsivity
 - [ ] seo
 - [ ] links
@@ -19,3 +19,4 @@ TODO
 - [x] footer for readability
 - [x] "bottom." "top?"
 - [x] checkmarks contrast boost
+- [ ] deploy
