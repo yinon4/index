@@ -1,7 +1,7 @@
 import { getCollection } from "astro:content";
 
 const createLink = (path: string) => ({
-  href: path,
+  href: `${import.meta.env.BASE_URL}/${path}`,
   text: path.split("/").pop(),
 });
 
