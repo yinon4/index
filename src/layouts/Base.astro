@@ -6,7 +6,7 @@ import "../global.css";
 
 export interface Props extends HeaderProps {
   title: string;
-  description: string;
+  description?: string;
 }
 
 const { title, description, ...headerProps } = Astro.props;
@@ -25,7 +25,7 @@ const { title, description, ...headerProps } = Astro.props;
     <!-- <ViewTransitions /> -->
     <!-- feel slow need to be faster -->
 
-    <meta name="description" content={description} />
+    <meta name="description" content={description || title} />
   </head>
   <body>
     <main>

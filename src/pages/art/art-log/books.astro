@@ -1,0 +1,30 @@
+---
+import PostLayout from "../../../layouts/Post.astro";
+import books from "../../../data/books.json";
+import { BooksType } from "../../../types";
+
+BooksType.parse(books);
+---
+
+<PostLayout title="books" links={[]}>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        books.map((book) => (
+          <tr>
+            <td>{book.title}</td>
+            <td>{book.author}</td>
+            <td>{book.reads[0].rating}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</PostLayout>
