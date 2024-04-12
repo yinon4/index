@@ -4,6 +4,8 @@ import books from "../../../data/books.json";
 import { BooksType } from "../../../types";
 
 BooksType.parse(books);
+
+books.sort((a, b) => a.title.localeCompare(b.title));
 ---
 
 <PostLayout title="books" links={[]}>
@@ -21,7 +23,7 @@ BooksType.parse(books);
           <tr>
             <td>{book.title}</td>
             <td>{book.author}</td>
-            <td>{book.reads[0].rating}</td>
+            <td>{book.reads.length ? book.reads[0].rating : "unread"}</td>
           </tr>
         ))
       }

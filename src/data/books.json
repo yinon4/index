@@ -5,27 +5,32 @@
     "tags": ["politics", "history", "philosophy"],
     "reads": [
       {
-        "date_started": "2024-02-07",
-        "date_finished": "2024-04-07",
+        "date_started": "2024-02-26",
+        "date_finished": "2024-04-02",
         "review": "started really good, very interesting talks on the constitution. It got a bit boring in the end, it was not meant to be read as a book.",
         "rating": 3,
         "tags": ["long", "repetitive", "smart", "convincing"]
       }
     ]
   },
-
   {
     "title": "I'm Thinking of Ending Things",
     "author": "Iain Reid",
     "tags": ["fiction", "thriller", "horror"],
     "reads": [
       {
-        "date_started": "2024-03-20",
+        "date_started": "2024-03-24",
         "date_finished": "2024-03-26",
         "review": "I watched the movie before and loved it. The book was very similar, so i liked it too. The parts where they were talking about him after he killed himself were good explanation. Clearer than the movie",
         "rating": 4,
         "tags": ["movie"]
       }
     ]
+  },
+  {
+    "title": "Pale Fire",
+    "author": "Vladimir Nabokov",
+    "tags": ["fiction", "poetry", "philosophy"],
+    "reads": []
   }
 ]
