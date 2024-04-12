@@ -2,6 +2,7 @@ import { defineConfig } from "astro/config";
 
 export default defineConfig({
   // integrations: [],
-  // site: 'https://yinon4.github.io/',
+  site: 'https://yinon4.github.io/',
+  base: "/",
   trailingSlash: "ignore"
 });
