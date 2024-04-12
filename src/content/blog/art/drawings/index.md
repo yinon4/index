@@ -1,4 +1,0 @@
----
-title: drawings
----
-drawings

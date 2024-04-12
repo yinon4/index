@@ -18,9 +18,15 @@ const isHome = path === import.meta.env.BASE_URL;
 
 <nav>
   {!isHome && <a href={backref}>← back</a>}
-  <div class="links">
-    {links && links.map((link) => <a href={link.href}>{link.text}</a>)}
-  </div>
+  {
+    links.length !== 0 && (
+      <div class="links">
+        {links.map((link) => (
+          <a href={link.href}>{link.text}</a>
+        ))}
+      </div>
+    )
+  }
 </nav>
 <style>
   a:hover {

@@ -1,0 +1,7 @@
+---
+title: music
+---
+
+1. song 1
+2. song 2
+3. song 3

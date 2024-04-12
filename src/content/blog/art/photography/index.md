@@ -1,4 +1,0 @@
----
-title: photgraphy
----
-photgraphy
