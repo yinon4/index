@@ -1,28 +1,5 @@
 ---
-title: index of
+title: index of / index
 ---
 
-TODO
-
-- [ ] responsivity
-- [ ] seo
-- [ ] transitions
-  - [ ] fancy transitions with header?
-- [ ] fun to use
-- [ ] fun to hover click buttons
--
-- [ ] tags
-- [ ] music, art logs
-- [x] footer for readability
-- [x] "bottom." "top?"
-- [x] checkmarks contrast boost
-- [x] deploy
-- [ ] prefetch on hover
-  - [ ] dev
-  - [ ] prod
-- [ ] styling
-  - [x] change colors
-  - [ ] links
-    - [x] styling
-    - [ ] more styling
-  - [ ] make line selection height shorter
+personal

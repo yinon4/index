@@ -11,29 +11,35 @@ export interface Props {
 const { links } = Astro.props;
 
 const path = Astro.url.pathname.replace(/\/$/, "");
-
 let backref = path.split("/").slice(0, -1).join("/");
 
-if (backref === "") {
-  backref = import.meta.env.BASE_URL;
-}
+const isHome = path === import.meta.env.BASE_URL;
 ---
 
 <nav>
-  <div>
-    {path != backref && <a href={backref}>← back</a>}
+  {!isHome && <a href={backref}>← back</a>}
+  <div class="links">
     {links && links.map((link) => <a href={link.href}>{link.text}</a>)}
   </div>
 </nav>
 <style>
-  div {
-    display: flex;
-    justify-content: space-between;
-    gap: 2rem;
-    flex-wrap: wrap;
-    user-select: none;
-  }
   a:hover {
     text-decoration: wavy underline;
+  }
+  nav {
+    user-select: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  div.links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  div:not(.links) {
+    justify-content: flex-start;
   }
 </style>
