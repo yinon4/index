@@ -10,7 +10,7 @@ export interface Props {
 
 const { links } = Astro.props;
 
-const path = Astro.url.pathname.slice(0, -1);
+const path = Astro.url.pathname.replace(/\/$/, "");
 
 let backref = path.split("/").slice(0, -1).join("/");
 
@@ -21,9 +21,7 @@ if (backref === "") {
 
 <nav>
   <div>
-    <h1>
-      {backref}, {path}
-    </h1>
+    {path != backref && <a href={backref}>← back</a>}
     {links && links.map((link) => <a href={link.href}>{link.text}</a>)}
   </div>
 </nav>
