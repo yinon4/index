@@ -26,4 +26,7 @@ TODO
     - [x] styling
     - [ ] more styling
   - [ ] make line selection height shorter
+  - [ ] known bugs?
+    - [ ] if /asdf/asfd is 404, back will go to /asdf (also 404)
+    - [x] footer bottom text is not centered
 
