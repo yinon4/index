@@ -21,6 +21,7 @@ if (backref === "") {
 
 <nav>
   <div>
+    <h1>{path}, {backref}</h1>
     {path != backref && <a href={backref}>← back</a>}
     {links && links.map((link) => <a href={link.href}>{link.text}</a>)}
   </div>
