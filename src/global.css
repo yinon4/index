@@ -1,3 +1,5 @@
+/* make more variables (some equaling each other) */
+/* flip z - ix for dark mode */
 :root {
   --z: #000000;
   --i: #1a1a1a;
@@ -53,6 +55,9 @@ a:visited {
 a:hover {
   color: var(--txt-least);
 }
+a[data-footnote-backref] {
+  filter: grayscale(1);
+}
 * {
   scrollbar-width: none;
 }
@@ -61,6 +66,20 @@ img {
 }
 table {
   width: 100%;
+  border: 1px solid var(--txt-less);
+  border-collapse: collapse;
+}
+th,
+td {
+  padding-inline: 0.5rem;
+  border: 1px solid var(--txt-less);
+}
+hr {
+  border: 1px solid var(--txt-less);
+}
+mark {
+  background-color: var(--txt-more);
+  color: var(--txt-least);
 }
 ::selection {
   background-color: var(--txt-least);
@@ -83,7 +102,4 @@ html {
     --txt-less: var(--v);
     --txt-least: var(--iii);
   }
-  /* input[type="checkbox"] {
-    filter: invert(1);
-  } */
 }

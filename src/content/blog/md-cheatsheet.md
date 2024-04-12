@@ -90,6 +90,13 @@ Markdown applications support these elements.
 | Header    | Title       |
 | Paragraph | Text        |
 
+### Aligned Table
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
 ### Footnote
 
 Here's a sentence with a footnote. [^1]
@@ -108,3 +115,7 @@ Here's another sentence with a footnote. [^2]
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+### Highlight
+
+Here is an example of <mark>highlighted text</mark> using the &lt;mark&gt; tag.
