@@ -1,5 +1,5 @@
 ---
-title: index
+title: thots
 ---
 
 index of thots

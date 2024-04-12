@@ -1,11 +1,8 @@
 ---
-type link = {
-  href: string;
-  text: string;
-};
+import type { Link } from "../types";
 
 export interface Props {
-  links?: link[];
+  links?: Link[];
 }
 
 const { links } = Astro.props;
@@ -37,6 +34,7 @@ const isHome = path === import.meta.env.BASE_URL;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 2rem;
   }
   div.links {
     flex-grow: 1;

@@ -1,8 +1,9 @@
-import { getCollection } from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
+import type { Link } from "./types";
 
-const createLink = (path: string) => ({
-  href: `${import.meta.env.BASE_URL}/${path}`,
-  text: path.split("/").pop(),
+const createLink = (post: CollectionEntry<"blog">) => ({
+  href: `${import.meta.env.BASE_URL}/${post.slug}`,
+  text: post.data.title,
 });
 
 const normalizeIndexSlug = (slug: string) => (slug === "index" ? "" : slug);
@@ -28,4 +29,13 @@ const isChildPath = (parentPath: string, path: string) =>
 export const getFolderContent = (folderPath: string) =>
   blog
     .filter((post) => isChildPath(folderPath, post.slug))
-    .map((post) => createLink(post.slug));
+    .map((post) => createLink(post));
+
+
+export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
+  link.text === "..."
+    ? 1
+    : prev.text === "..."
+      ? -1
+      : link.text.localeCompare(prev.text),
+);
