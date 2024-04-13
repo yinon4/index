@@ -24,7 +24,7 @@ body {
   margin: 1rem auto;
   padding: 0 1rem;
   font:
-    20px/1.5 -apple-system,
+    20px/1.5 -apple-system /* rem */,
     BlinkMacSystemFont,
     "Segoe UI",
     Roboto,
@@ -59,9 +59,6 @@ a:hover {
 a[data-footnote-backref] {
   filter: grayscale(1);
 }
-* {
-  scrollbar-width: none;
-}
 img {
   max-width: 100%;
 }
@@ -88,6 +85,7 @@ mark {
 }
 html {
   scroll-behavior: smooth;
+  scrollbar-color: var(--txt-least) var(--bg);
 }
 *:has(> input:checked) {
   text-decoration: line-through;
