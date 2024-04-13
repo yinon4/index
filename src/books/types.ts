@@ -3,7 +3,7 @@ import { datestring } from "types";
 
 export const BookSchema = z.object({
     title: z.string(),
-    authors: z.array(z.string()).min(1),
+    author: z.string(),
     tags: z.array(z.string()),
     reads: z.array(z.object({
         date_started: datestring,

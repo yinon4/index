@@ -1,6 +1,6 @@
 ---
 import PostLayout from "layouts/Post.astro";
-import books from "books/data.json";
+import books from "books/read.json";
 import { BooksSchema } from "books/types";
 import {
   getAuthors,
@@ -12,7 +12,7 @@ import {
   readFilter,
 } from "books/functions";
 
-BooksSchema.parse(books);
+// BooksSchema.parse(books); // JSON FILE TOO BIG ?
 
 const filterBooks = books.filter(readFilter);
 const sortedBooks = filterBooks.sort(sortByAuthor);

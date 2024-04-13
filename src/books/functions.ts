@@ -11,15 +11,13 @@ export const getRating = ({ reads }: Book) => {
     return rating;
 }
 export const getTitle = ({ title }: Book) => title.toLocaleLowerCase();
-export const getAuthors = ({ authors }: Book) => authors.map((author) => author.toLocaleLowerCase()).join(", ");
+export const getAuthors = ({ author }: Book) => author.toLocaleLowerCase();
 export const getDateFinished = ({ reads }: Book) => {
     if (reads.length === 0) return "";
     return reads[0].date_finished;
 }
-export const sortByAuthor = ({ authors: { 0: a } }: Book, { authors: { 0: b } }: Book) => {
-    const aLast = a.split(" ").pop();
-    const bLast = b.split(" ").pop();
-    return aLast.localeCompare(bLast);
+export const sortByAuthor = ({ author: a }: Book, { author: b }: Book) => {
+    return a.localeCompare(b);
 }
 export const sortByTitle = ({ title: a }: Book, { title: b }: Book) => a.localeCompare(b);
 export const sortByRating = ({ reads: aReads }: Book, { reads: bReads }: Book) => {
