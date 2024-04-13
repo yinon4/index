@@ -36,7 +36,7 @@ const sortedBooks = filterBooks.sort(sortByAuthor);
             <td>{getTitle(book)}</td>
             <td>{getAuthors(book)}</td>
             <td>{getTags(book).join(" ")}</td>
-            <td>{getRating(book)}</td>
+            <td style="text-align:center">{getRating(book)}</td>
             <td>{getDateFinished(book)}</td>
           </tr>
         ))

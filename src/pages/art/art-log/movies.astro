@@ -2,10 +2,20 @@
 import PostLayout from "layouts/Post.astro";
 import movies from "data/movies/movies.json";
 import { MoviesSchema } from "data/movies/types";
-import { getTitle, getRating } from "data/movies/functions";
+import {
+  getTitle,
+  getRating,
+  byTitle,
+  sortMovies,
+  bySeen,
+  filterMovies,
+  getDate,
+} from "data/movies/functions";
 
-// MoviesSchema.parse(movies);
 MoviesSchema.parse(movies);
+
+const sortedMovies = sortMovies(byTitle, movies);
+const filteredMovies = filterMovies(bySeen, sortedMovies);
 ---
 
 <PostLayout title="movies">
@@ -14,14 +24,18 @@ MoviesSchema.parse(movies);
       <tr>
         <th>title</th>
         <th>rating</th>
+        <th>date</th>
       </tr>
     </thead>
     <tbody>
       {
-        movies.map((movie) => (
+        filteredMovies.map((movie) => (
           <tr>
             <td>{getTitle(movie)}</td>
-            <td>{getRating(movie)}</td>
+            <td style="text-align:center">{getRating(movie)}</td>
+            <td style="min-width:100px; text-align: right;">
+              {getDate(movie)}
+            </td>
           </tr>
         ))
       }
