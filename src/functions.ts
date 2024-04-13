@@ -39,3 +39,4 @@ export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
       : link.text.localeCompare(prev.text),
 );
 
+export const getLast = (arr: any[]) => arr[arr.length - 1];

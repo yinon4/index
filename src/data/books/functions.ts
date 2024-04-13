@@ -1,30 +1,31 @@
+import type { filter, get, sort } from "types";
 import type { Book } from "./types";
+import { getLast } from "functions";
 
 
-export const getTags = ({ tags }: Book) => tags.map((tag) => `#${tag}`)
-export const getRating = ({ reads }: Book) => {
+export const getTags: get<Book> = ({ tags }) => tags.map((tag) => `#${tag}`)
+export const getRating: get<Book> = ({ reads }) => {
     if (!reads) return "";
-    const rating = reads[reads.length - 1].rating;
+    const rating = getLast(reads).rating;
     if (rating === 0) return "dnf";
     return rating;
 }
-export const getTitle = ({ title }: Book) => title.toLocaleLowerCase();
-export const getAuthors = ({ author }: Book) => author.toLocaleLowerCase();
-export const getDateFinished = ({ reads }: Book) => {
+export const getTitle: get<Book> = ({ title }) => title.toLocaleLowerCase();
+export const getAuthors: get<Book> = ({ author }) => author.toLocaleLowerCase();
+export const getDateFinished: get<Book> = ({ reads }) => {
     if (!reads) return "";
     return reads[0].date_finished;
 }
-export const byAuthor = ({ author: a }: Book, { author: b }: Book) => {
-    return a.localeCompare(b);
-}
+export const byAuthor: sort<Book> = ({ author: a }, { author: b }) =>
+    a.localeCompare(b);
 
-type sortFn = (a: Book, b: Book) => number;
-export const byTitle: sortFn = ({ title: a }: Book, { title: b }: Book) => a.localeCompare(b);
-export const byRating: sortFn = ({ reads: aReads }: Book, { reads: bReads }: Book) => {
+
+export const byTitle: sort<Book> = ({ title: a }, { title: b }) => a.localeCompare(b);
+export const byRating: sort<Book> = ({ reads: aReads }, { reads: bReads }) => {
     const a = getRating({ reads: aReads }).toString();
     const b = getRating({ reads: bReads }).toString();
     return a.localeCompare(b);
 };
 
 
-export const readFilter = ({ reads }: Book) => !!reads;
+export const readFilter: filter<Book> = ({ reads }) => !!reads;
