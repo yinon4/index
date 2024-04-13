@@ -1,5 +1,3 @@
-/* make more variables (some equaling each other) */
-/* flip z - ix for dark mode */
 :root {
   --z: #000000;
   --i: #1a1a1a;
@@ -11,20 +9,30 @@
   --vii: #b3b3b3;
   --viii: #cccccc;
   --ix: #e7e7e7;
-  --ix: #ffffff;
-
-  --bg: var(--ix);
-  --txt-more: var(--i);
-  --txt: var(--iii);
-  --txt-less: var(--v);
-  --txt-least: var(--vii);
+  --x: #ffffff;
 }
+@media (prefers-color-scheme: dark) {
+  :root {
+    --z: #ffffff;
+    --i: #e7e7e7;
+    --ii: #cccccc;
+    --iii: #b3b3b3;
+    --iv: #999999;
+    --v: #808080;
+    --vi: #666666;
+    --vii: #4d4d4d;
+    --viii: #333333;
+    --ix: #1a1a1a;
+    --x: #000000;
+  }
+}
+
 body {
   max-width: 65ch;
   margin: 1rem auto;
   padding: 0 1rem;
   font:
-    20px/1.5 -apple-system /* rem */,
+    1.25rem -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
     Roboto,
@@ -36,25 +44,20 @@ body {
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji";
-  color: var(--txt);
-  background-color: var(--bg);
+  color: var(--iii);
+  background-color: var(--ix);
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
-h1,
-h2,
-h3 {
-  line-height: 1.2;
-}
 a:link {
-  color: var(--txt-less);
+  color: var(--v);
   text-decoration: none;
 }
 a:visited {
-  color: var(--txt-less);
+  color: var(--v);
 }
 a:hover {
-  color: var(--txt-least);
+  color: var(--vii);
 }
 a[data-footnote-backref] {
   filter: grayscale(1);
@@ -64,41 +67,30 @@ img {
 }
 table {
   width: 100%;
-  border: 1px solid var(--txt-less);
+  border: 1px solid var(--v);
   border-collapse: collapse;
 }
 th,
 td {
   padding-inline: 0.5rem;
-  border: 1px solid var(--txt-less);
+  border: 1px solid var(--v);
 }
 hr {
-  border: 1px solid var(--txt-less);
+  border: 1px solid var(--v);
 }
 mark {
-  background-color: var(--txt-more);
-  color: var(--txt-least);
+  background-color: var(--i);
+  color: var(--vii);
 }
 ::selection {
-  background-color: var(--txt-least);
-  color: var(--txt-more);
+  background-color: var(--vii);
+  color: var(--i);
 }
 html {
   scroll-behavior: smooth;
-  scrollbar-color: var(--txt-least) var(--bg);
+  scrollbar-color: var(--vii) var(--ix);
 }
 *:has(> input:checked) {
   text-decoration: line-through;
-  color: var(--txt-least);
-  /* remove from prod ? */
-  /* functional but not pretty */
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: var(--i);
-    --txt-more: var(--ix);
-    --txt: var(--vii);
-    --txt-less: var(--v);
-    --txt-least: var(--iii);
-  }
+  color: var(--vii);
 }

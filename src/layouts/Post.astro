@@ -4,10 +4,9 @@ import Layout, { type Props as BaseProps } from "./Base.astro";
 export interface Props extends BaseProps {
   date?: string;
   tags?: string[];
-  readingTime?: string;
 }
 
-const { date, tags, readingTime, ...baseProps } = Astro.props;
+const { date, tags, ...baseProps } = Astro.props;
 ---
 
 <Layout {...baseProps}>

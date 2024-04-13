@@ -15,9 +15,9 @@ const isHome = backref === "";
 <nav>
   {!isHome && <a href={backref}>← back</a>}
   {
-    links.length !== 0 && (
+    !!links && (
       <div class="links">
-        {links.map((link, index) => (
+        {links.map((link) => (
           <a href={link.href}>{link.text}</a>
         ))}
       </div>
