@@ -3,5 +3,10 @@
   "compilerOptions": {
     "verbatimModuleSyntax": true,
     "resolveJsonModule": true,
+    "baseUrl": "src",
+    "paths": {
+      "@books": ["books"],
+      "@layouts": ["layouts"],
+    }
   }
 }

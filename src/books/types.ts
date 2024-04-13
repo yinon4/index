@@ -1,7 +1,7 @@
 import { z } from "astro/zod";
 import { datestring } from "../types";
 
-export const BookType = z.object({
+export const BookSchema = z.object({
     title: z.string(),
     authors: z.array(z.string()).min(1),
     tags: z.array(z.string()),
@@ -14,3 +14,5 @@ export const BookType = z.object({
 
     }))
 })
+
+export const BooksSchema = z.array(BookSchema)

@@ -1,8 +1,7 @@
 ---
-import PostLayout from "../../../layouts/Post.astro";
-import books from "../../../books/data.json";
-import { BookType } from "../../../books/types";
-import { z } from "astro/zod";
+import PostLayout from "layouts/Post.astro";
+import books from "books/data.json";
+import { BooksSchema } from "books/types";
 import {
   getAuthors,
   getRating,
@@ -10,14 +9,13 @@ import {
   getTitle,
   getDateFinished,
   sortByAuthor,
-} from "../../../books/functions";
+  readFilter,
+} from "books/functions";
 
-const BooksType = z.array(BookType);
-type Book = z.infer<typeof BookType>;
+BooksSchema.parse(books);
 
-BooksType.parse(books);
-
-books.sort(sortByAuthor);
+const filterBooks = books.filter(readFilter);
+const sortedBooks = filterBooks.sort(sortByAuthor);
 ---
 
 <PostLayout title="books">
@@ -33,7 +31,7 @@ books.sort(sortByAuthor);
     </thead>
     <tbody>
       {
-        books.map((book: Book) => (
+        sortedBooks.map((book) => (
           <tr>
             <td>{getTitle(book)}</td>
             <td>{getAuthors(book)}</td>

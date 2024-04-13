@@ -1,7 +1,7 @@
 import { z } from "astro/zod";
-import type { BookType } from "../types";
+import type { BookSchema } from "./types";
 
-type Book = z.infer<typeof BookType>
+type Book = z.infer<typeof BookSchema>
 
 export const getTags = ({ tags }: Book) => tags.map((tag) => `#${tag}`)
 export const getRating = ({ reads }: Book) => {
@@ -27,3 +27,5 @@ export const sortByRating = ({ reads: aReads }: Book, { reads: bReads }: Book) =
     const b = getRating({ reads: bReads }).toString();
     return a.localeCompare(b);
 };
+
+export const readFilter = ({ reads }: Book) => reads.length > 0;
