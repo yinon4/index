@@ -3,25 +3,18 @@ import {
   createTable,
   createColumnHelper,
   getCoreRowModel,
+  type ColumnDef,
 } from "@tanstack/table-core";
 
 interface Props<T> {
+  columns: ColumnDef<T>[];
   data: T[];
 }
 
-const { data } = Astro.props;
-
-const columnHelper = createColumnHelper<(typeof data)[0]>();
-
-const tColumns = Object.keys(data[0]).map((key: string) =>
-  columnHelper.accessor(key, {
-    header: key,
-    cell: (info) => info.getValue(),
-  }),
-);
+const { columns, data } = Astro.props;
 
 const table = createTable({
-  columns: tColumns,
+  columns,
   data,
   getCoreRowModel: getCoreRowModel(),
   onStateChange: () => {},
@@ -38,10 +31,10 @@ const table = createTable({
   </thead>
   <tbody>
     {
-      table.options.data.map((row) => (
+      table.getCoreRowModel().rows.map((row) => (
         <tr>
-          {Object.keys(row).map((key) => (
-            <td>{row[key]}</td>
+          {row.getAllCells().map((cell) => (
+            <td>{cell.getValue()}</td>
           ))}
         </tr>
       ))

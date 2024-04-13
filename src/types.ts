@@ -7,10 +7,9 @@ export type Link = {
 
 const datestring = z.string().refine((val) => Date.parse(val), { message: "Invalid datestring" })
 
-
 export const BookType = z.object({
     title: z.string(),
-    author: z.string(),
+    authors: z.array(z.string()).min(1),
     tags: z.array(z.string()),
     reads: z.array(z.object({
         date_started: datestring,
@@ -22,4 +21,4 @@ export const BookType = z.object({
     }))
 })
 
-export const BooksType = z.array(BookType)
+

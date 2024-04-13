@@ -39,3 +39,5 @@ export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
       ? -1
       : link.text.localeCompare(prev.text),
 );
+
+export const formatTags = (tags: string[]) => tags.map((tag) => `#${tag}`)

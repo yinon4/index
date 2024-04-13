@@ -1,7 +1,7 @@
 [
   {
     "title": "The Federalist Papers",
-    "author": "Alexander Hamilton, James Madison, John Jay",
+    "authors": ["Alexander Hamilton", "James Madison", "John Jay"],
     "tags": ["politics", "history", "philosophy"],
     "reads": [
       {
@@ -15,7 +15,7 @@
   },
   {
     "title": "I'm Thinking of Ending Things",
-    "author": "Iain Reid",
+    "authors": ["Iain Reid"],
     "tags": ["fiction", "thriller", "horror"],
     "reads": [
       {
@@ -29,7 +29,7 @@
   },
   {
     "title": "Pale Fire",
-    "author": "Vladimir Nabokov",
+    "authors": ["Vladimir Nabokov"],
     "tags": ["fiction", "poetry", "philosophy"],
     "reads": []
   }
