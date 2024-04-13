@@ -1,5 +1,5 @@
 ---
-import { blog, getFolderContent, sortLinks } from "../functions/functions";
+import { blog, getFolderContent, sortLinks } from "../functions";
 import Post from "../layouts/Post.astro";
 
 export const getStaticPaths = async () =>
@@ -20,4 +20,3 @@ const { Content } = await render();
 <Post title={title} description={title} links={sortLinks(links)}>
   <Content />
 </Post>
-../functions/functions

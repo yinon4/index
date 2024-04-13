@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import type { Link } from "../types";
+import type { Link } from "./types";
 
 const createLink = (post: CollectionEntry<"blog">): Link => ({
   href: `${import.meta.env.BASE_URL}/${post.slug}`,
@@ -29,8 +29,7 @@ const isChildPath = (parentPath: string, path: string) =>
 export const getFolderContent = (folderPath: string) =>
   blog
     .filter((post) => isChildPath(folderPath, post.slug))
-    .map((post) => createLink(post));
-
+    .map((post) => createLink(post as CollectionEntry<"blog">)); // ?
 
 export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
   link.text === "..."

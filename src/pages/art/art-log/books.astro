@@ -1,21 +1,23 @@
 ---
 import PostLayout from "../../../layouts/Post.astro";
-import books from "../../../data/books.json";
-import { BookType } from "../../../types";
+import books from "../../../books/data.json";
+import { BookType } from "../../../books/types";
 import { z } from "astro/zod";
 import {
   getAuthors,
   getRating,
   getTags,
   getTitle,
-} from "../../../functions/books";
+  getDateFinished,
+  sortByAuthor,
+} from "../../../books/functions";
 
 const BooksType = z.array(BookType);
 type Book = z.infer<typeof BookType>;
 
 BooksType.parse(books);
 
-books.sort((a, b) => a.title.localeCompare(b.title));
+books.sort(sortByAuthor);
 ---
 
 <PostLayout title="books" links={[]}>
@@ -26,6 +28,7 @@ books.sort((a, b) => a.title.localeCompare(b.title));
         <th>author</th>
         <th>tags</th>
         <th>rating</th>
+        <th>finished</th>
       </tr>
     </thead>
     <tbody>
@@ -36,9 +39,11 @@ books.sort((a, b) => a.title.localeCompare(b.title));
             <td>{getAuthors(book)}</td>
             <td>{getTags(book).join(" ")}</td>
             <td>{getRating(book)}</td>
+            <td>{getDateFinished(book)}</td>
           </tr>
         ))
       }
     </tbody>
   </table>
 </PostLayout>
+../../../books/books

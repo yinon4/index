@@ -27,8 +27,7 @@ TODO
   - [ ] make line selection height shorter
 - [ ] known bugs?
   - [ ] if /asdf/asfd is 404, back will go to /asdf (also 404)
-  - [ ] functions.ts types
-  - [ ] books.astro column defs untyped
+  - [x] functions.ts types
 - [ ] what data to make public?
   - [ ] what to keep private?
 - [ ] sound like
