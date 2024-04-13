@@ -24,7 +24,7 @@ body {
   margin: 1rem auto;
   padding: 0 1rem;
   font:
-    18px/1.5 -apple-system,
+    20px/1.5 -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
     Roboto,
@@ -38,7 +38,8 @@ body {
     "Noto Color Emoji";
   color: var(--txt);
   background-color: var(--bg);
-  line-height: 2;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
 }
 h1,
 h2,

@@ -7,12 +7,14 @@ TODO
 - [ ] responsivity
 - [ ] seo
 - [ ] transitions
-  - [ ] fancy transitions with header?
+  - [ ] fancy transitions with header
+    - [ ] header links slide in from right animation
 - [ ] fun to use
 - [ ] fun to hover click buttons
 -
 - [ ] tags
 - [ ] music, art logs
+  - [x] step one
 - [x] footer for readability
 - [x] "bottom." "top?"
 - [x] checkmarks contrast boost
@@ -29,5 +31,16 @@ TODO
 - [ ] known bugs?
   - [ ] if /asdf/asfd is 404, back will go to /asdf (also 404)
   - [x] footer bottom text is not centered
-- [ ] add better table
+- [ ] better table
+- [ ] what data to make public?
+  - [ ] what to keep private?
+- [ ] sound like
+  - https://www.joshwcomeau.com/css/custom-css-reset/#:~:text=This-,behavior,-is%20weird%2C%20right
+  - right above (tab key)
+  - https://www.joshwcomeau.com/animation/css-transitions/
+  - [ ] also allow spam back button
+- [ ] scrollbar
+  - [ ] without jumps
+- [ ] rem for font size
+- https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/#:~:text=Welcome%20to%20web,necessary%20for%20this%3A
 
