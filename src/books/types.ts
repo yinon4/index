@@ -1,5 +1,5 @@
 import { z } from "astro/zod";
-import { datestring } from "../types";
+import { datestring } from "types";
 
 export const BookSchema = z.object({
     title: z.string(),
