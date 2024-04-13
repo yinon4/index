@@ -1,47 +1,30 @@
 ---
 import PostLayout from "layouts/Post.astro";
-import books from "data/books/data.json";
-// import { MoviesSchema } from "data/movies/types";
-import {
-  getAuthors,
-  getRating,
-  getTags,
-  getTitle,
-  getDateFinished,
-  sortByAuthor,
-  readFilter,
-} from "data/books/functions";
+import movies from "data/movies/movies.json";
+import { MoviesSchema } from "data/movies/types";
+import { getTitle, getRating } from "data/movies/functions";
 
-// BooksSchema.parse(books); // JSON FILE TOO BIG ?
-
-const filterBooks = books.filter(readFilter);
-const sortedBooks = filterBooks.sort(sortByAuthor);
+// MoviesSchema.parse(movies);
+MoviesSchema.parse(movies);
 ---
 
-<PostLayout title="books">
+<PostLayout title="movies">
   <table>
     <thead>
       <tr>
         <th>title</th>
-        <th>author</th>
-        <th>tags</th>
         <th>rating</th>
-        <th>finished</th>
       </tr>
     </thead>
     <tbody>
       {
-        sortedBooks.map((book) => (
+        movies.map((movie) => (
           <tr>
-            <td>{getTitle(book)}</td>
-            <td>{getAuthors(book)}</td>
-            <td>{getTags(book).join(" ")}</td>
-            <td>{getRating(book)}</td>
-            <td>{getDateFinished(book)}</td>
+            <td>{getTitle(movie)}</td>
+            <td>{getRating(movie)}</td>
           </tr>
         ))
       }
     </tbody>
   </table>
 </PostLayout>
-data/books/functionsdata/movies/types

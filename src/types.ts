@@ -6,7 +6,7 @@ export type Link = {
 };
 
 export const datestring = z.string().refine(
-    (val) => Date.parse(val), { message: "Invalid datestring" }
+    (val) => Date.parse(val), { message: "Invalid custom datestring" }
 )
 
 
