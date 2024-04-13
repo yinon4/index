@@ -11,27 +11,24 @@ TODO
     - [ ] header links slide in from right animation
 - [ ] fun to use
 - [ ] fun to hover click buttons
--
 - [ ] tags
 - [ ] music, art logs
-  - [x] step one
-- [x] footer for readability
-- [x] "bottom." "top?"
-- [x] checkmarks contrast boost
-- [x] deploy
+  - [x] json db
+  - [x] tanstack table
+  - [ ] filter, search
+  - [ ] pretty
 - [ ] prefetch on hover
   - [ ] dev
   - [ ] prod
 - [ ] styling
-  - [x] change colors
   - [ ] links
     - [x] styling
     - [ ] more styling
   - [ ] make line selection height shorter
 - [ ] known bugs?
   - [ ] if /asdf/asfd is 404, back will go to /asdf (also 404)
-  - [x] footer bottom text is not centered
-- [ ] better table
+  - [ ] functions.ts types
+  - [ ] books.astro column defs untyped
 - [ ] what data to make public?
   - [ ] what to keep private?
 - [ ] sound like
@@ -43,4 +40,14 @@ TODO
   - [ ] without jumps
 - [ ] rem for font size
 - https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/#:~:text=Welcome%20to%20web,necessary%20for%20this%3A
+- [ ] make muis, books, movies pages not boring tables but pretty with animations
+  - like https://astro-records.pages.dev/
 
+---
+
+- [x] better table
+- [x] footer bottom text is not centered
+- [x] change colors- [x] footer for readability
+- [x] "bottom." "top?"
+- [x] checkmarks contrast boost
+- [x] deploy

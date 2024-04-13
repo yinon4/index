@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import type { Link } from "./types";
+import type { Link } from "../types";
 
 const createLink = (post: CollectionEntry<"blog">): Link => ({
   href: `${import.meta.env.BASE_URL}/${post.slug}`,
@@ -40,4 +40,3 @@ export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
       : link.text.localeCompare(prev.text),
 );
 
-export const formatTags = (tags: string[]) => tags.map((tag) => `#${tag}`)

@@ -2,10 +2,13 @@
 import PostLayout from "../../../layouts/Post.astro";
 import books from "../../../data/books.json";
 import { BookType } from "../../../types";
-import Table from "../../../components/Table.astro";
-import { createColumnHelper } from "@tanstack/table-core";
 import { z } from "astro/zod";
-import { formatTags } from "../../../functions";
+import {
+  getAuthors,
+  getRating,
+  getTags,
+  getTitle,
+} from "../../../functions/books";
 
 const BooksType = z.array(BookType);
 type Book = z.infer<typeof BookType>;
@@ -13,28 +16,29 @@ type Book = z.infer<typeof BookType>;
 BooksType.parse(books);
 
 books.sort((a, b) => a.title.localeCompare(b.title));
-
-const columnHelper = createColumnHelper<Book>();
-
-const columns = [
-  columnHelper.accessor("title", {
-    header: "Title",
-  }),
-  columnHelper.accessor((row) => row.authors.join(", "), {
-    header: "Authors",
-  }),
-  columnHelper.accessor((row) => formatTags(row.tags).join(" "), {
-    header: "Tags",
-  }),
-  columnHelper.accessor(
-    (row) => (row.reads.length > 0 ? row.reads[0].rating : "unread"),
-    {
-      header: "Rating",
-    },
-  ),
-];
 ---
 
 <PostLayout title="books" links={[]}>
-  <Table data={books} columns={columns} />
+  <table>
+    <thead>
+      <tr>
+        <th>title</th>
+        <th>author</th>
+        <th>tags</th>
+        <th>rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        books.map((book: Book) => (
+          <tr>
+            <td>{getTitle(book)}</td>
+            <td>{getAuthors(book)}</td>
+            <td>{getTags(book).join(" ")}</td>
+            <td>{getRating(book)}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
 </PostLayout>
