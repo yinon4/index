@@ -8,7 +8,7 @@ export const BookSchema = z.object({
     cover: z.string().url().optional(),
     url: z.string().url().optional(),
     reads: z.array(z.object({
-        date_started: datestring,
+        date_started: datestring.optional(), // should be required // change db add libby data
         date_finished: datestring.optional(),
         review: z.string().optional(),
         rating: z.number().int().min(0).max(5).optional(),
@@ -16,5 +16,4 @@ export const BookSchema = z.object({
     })).min(1).optional()
 })
 
-export const BooksSchema = z.array(BookSchema)
 export type Book = z.infer<typeof BookSchema>

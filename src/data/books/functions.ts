@@ -1,5 +1,5 @@
 import type { filter, get, sort } from "types";
-import type { Book } from "./types";
+import { type Book } from "./types";
 import { getLast } from "functions";
 
 

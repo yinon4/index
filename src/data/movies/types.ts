@@ -15,6 +15,5 @@ export const MovieSchema = z.object({
     })).min(1).optional()
 })
 
-export const MoviesSchema = z.array(MovieSchema)
 export type Movie = z.infer<typeof MovieSchema>
 

@@ -40,3 +40,10 @@ export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
 );
 
 export const getLast = (arr: any[]) => arr[arr.length - 1];
+
+export const parse = (schema: any, data: any[], print = false) => {
+  data.forEach((dat) => {
+    if (print) console.log(dat);
+    schema.parse(dat);
+  });
+}

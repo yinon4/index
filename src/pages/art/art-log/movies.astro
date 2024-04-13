@@ -1,7 +1,7 @@
 ---
 import PostLayout from "layouts/Post.astro";
 import movies from "data/movies/movies.json";
-import { MoviesSchema } from "data/movies/types";
+import { MovieSchema } from "data/movies/types";
 import {
   getTitle,
   getRating,
@@ -9,9 +9,9 @@ import {
   bySeen,
   getDate,
 } from "data/movies/functions";
+import { parse } from "functions";
 
-MoviesSchema.parse(movies);
-
+parse(MovieSchema, movies);
 const filteredMovies = movies.filter(bySeen);
 const sortedMovies = filteredMovies.sort(byTitle);
 ---

@@ -1,5 +1,5 @@
 import type { sort, filter, get } from "types";
-import type { Movie } from "./types";
+import { type Movie } from "./types";
 import { getLast } from "functions";
 
 
@@ -20,4 +20,3 @@ export const byTitle: sort<Movie> = (a, b) => {
 }
 
 export const bySeen: filter<Movie> = (movie) => movie.watches?.length > 0;
-
