@@ -21,9 +21,9 @@ export const byAuthor: sort<Book> = ({ author: a }, { author: b }) =>
 
 
 export const byTitle: sort<Book> = ({ title: a }, { title: b }) => a.localeCompare(b);
-export const byRating: sort<Book> = ({ reads: aReads }, { reads: bReads }) => {
-    const a = getRating({ reads: aReads }).toString();
-    const b = getRating({ reads: bReads }).toString();
+export const byRating: sort<Book> = (bookA, bookB) => {
+    const a = getRating(bookA).toString();
+    const b = getRating(bookB).toString();
     return a.localeCompare(b);
 };
 

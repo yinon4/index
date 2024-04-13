@@ -4,18 +4,17 @@ import { datestring } from "types";
 export const BookSchema = z.object({
     title: z.string(),
     author: z.string(),
-    tags: z.array(z.string()).optional(),
-    cover: z.optional(z.string().url()),
-    url: z.optional(z.string().url()),
+    tags: z.array(z.string()).min(1).optional(),
+    cover: z.string().url().optional(),
+    url: z.string().url().optional(),
     reads: z.array(z.object({
-        date_started: z.optional(datestring),
-        date_finished: z.optional(datestring),
-        review: z.optional(z.string()),
-        rating: z.optional(z.number().int().min(0).max(5)),
-        tags: z.optional(z.array(z.string()))
-    })).optional()
+        date_started: datestring,
+        date_finished: datestring.optional(),
+        review: z.string().optional(),
+        rating: z.number().int().min(0).max(5).optional(),
+        tags: z.array(z.string()).min(1).optional()
+    })).min(1).optional()
 })
 
 export const BooksSchema = z.array(BookSchema)
-
 export type Book = z.infer<typeof BookSchema>

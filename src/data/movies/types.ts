@@ -5,16 +5,16 @@ export const MovieSchema = z.object({
     title: z.string(),
     director: z.string().optional(),
     tags: z.array(z.string()).optional(),
-    poster: z.optional(z.string().url()),
-    url: z.optional(z.string().url()),
+    poster: z.string().url().optional(),
+    url: z.string().url().optional(),
     watches: z.array(z.object({
-        date: (datestring), // should be date with time // need to update db
+        date: (datestring), // z.string().datetime() // need to update db
         review: z.string().optional(),
-        rating: z.number().int().min(0).max(5),
+        rating: z.number().int().min(0).max(5).optional(),
         tags: z.array(z.string()).optional()
-    })).optional()
+    })).min(1).optional()
 })
 
 export const MoviesSchema = z.array(MovieSchema)
-
 export type Movie = z.infer<typeof MovieSchema>
+

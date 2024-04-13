@@ -12,8 +12,8 @@ import {
 
 MoviesSchema.parse(movies);
 
-const sortedMovies = movies.sort(byTitle);
-const filteredMovies = sortedMovies.filter(bySeen);
+const filteredMovies = movies.filter(bySeen);
+const sortedMovies = filteredMovies.sort(byTitle);
 ---
 
 <PostLayout title="movies">
@@ -27,7 +27,7 @@ const filteredMovies = sortedMovies.filter(bySeen);
     </thead>
     <tbody>
       {
-        filteredMovies.map((movie) => (
+        sortedMovies.map((movie) => (
           <tr>
             <td>{getTitle(movie)}</td>
             <td style="text-align:center">{getRating(movie)}</td>
