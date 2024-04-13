@@ -1,7 +1,5 @@
-import { z } from "astro/zod";
-import type { MovieSchema } from "./types";
+import type { Movie } from "./types";
 
-type Movie = z.infer<typeof MovieSchema>
 
 export const getRating = (movie: Movie) => {
     if (!movie.watches) return "";
@@ -18,8 +16,6 @@ export const getDate = ({ watches }: Movie) => {
 
 type sortFn = (a: Movie, b: Movie) => number;
 type filterFn = (movie: Movie) => boolean;
-export const sortMovies = (by: sortFn, movies: Movie[]) => movies.sort(by);
-export const filterMovies = (by: filterFn, movies: Movie[]) => movies.filter(by);
 
 export const byTitle: sortFn = (a, b) => {
     return getTitle(a) > getTitle(b) ? 1 : -1;

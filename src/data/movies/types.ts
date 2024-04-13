@@ -8,7 +8,7 @@ export const MovieSchema = z.object({
     poster: z.optional(z.string().url()),
     url: z.optional(z.string().url()),
     watches: z.array(z.object({
-        date: (datestring), // should be date with time
+        date: (datestring), // should be date with time // need to update db
         review: z.string().optional(),
         rating: z.number().int().min(0).max(5),
         tags: z.array(z.string()).optional()
@@ -16,3 +16,5 @@ export const MovieSchema = z.object({
 })
 
 export const MoviesSchema = z.array(MovieSchema)
+
+export type Movie = z.infer<typeof MovieSchema>

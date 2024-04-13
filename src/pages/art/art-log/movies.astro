@@ -6,16 +6,14 @@ import {
   getTitle,
   getRating,
   byTitle,
-  sortMovies,
   bySeen,
-  filterMovies,
   getDate,
 } from "data/movies/functions";
 
 MoviesSchema.parse(movies);
 
-const sortedMovies = sortMovies(byTitle, movies);
-const filteredMovies = filterMovies(bySeen, sortedMovies);
+const sortedMovies = movies.sort(byTitle);
+const filteredMovies = sortedMovies.filter(bySeen);
 ---
 
 <PostLayout title="movies">
