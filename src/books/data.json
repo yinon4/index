@@ -1,36 +1,1902 @@
 [
   {
     "title": "The Federalist Papers",
-    "authors": ["Alexander Hamilton", "James Madison", "John Jay"],
-    "tags": ["politics", "history", "philosophy"],
+    "author": "Alexander Hamilton, James Madison, John Jay",
+    "tags": [],
+    "Read Count": 1,
     "reads": [
       {
-        "date_started": "2024-02-26",
-        "date_finished": "2024-04-02",
-        "review": "started really good, very interesting talks on the constitution. It got a bit boring in the end, it was not meant to be read as a book.",
         "rating": 3,
-        "tags": ["long", "repetitive", "smart", "convincing"]
+        "date_started": "",
+        "date_finished": ""
       }
     ]
   },
   {
     "title": "I'm Thinking of Ending Things",
-    "authors": ["Iain Reid"],
-    "tags": ["fiction", "thriller", "horror"],
+    "author": "Iain Reid,",
+    "tags": [],
+    "Read Count": 1,
     "reads": [
       {
-        "date_started": "2024-03-24",
-        "date_finished": "2024-03-26",
-        "review": "I watched the movie before and loved it. The book was very similar, so i liked it too. The parts where they were talking about him after he killed himself were good explanation. Clearer than the movie",
         "rating": 4,
-        "tags": ["movie"]
+        "date_started": "",
+        "date_finished": ""
       }
     ]
   },
   {
-    "title": "Pale Fire",
-    "authors": ["Vladimir Nabokov"],
-    "tags": ["fiction", "poetry", "philosophy"],
+    "title": "The Problems of Philosophy",
+    "author": "Bertrand Russell,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Sea of Tranquility",
+    "author": "Emily St. John Mandel,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Making Movies",
+    "author": "Sidney Lumet,",
+    "tags": [],
     "reads": []
+  },
+  {
+    "title": "Martereau",
+    "author": "Nathalie Sarraute,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Thief's Journal",
+    "author": "Jean Genet, Bernard Frechtman, Jean-Paul Sartre",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Our Lady of the Flowers",
+    "author": "Jean Genet, Jean-Paul Sartre, Bernard Frechtman",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "History and Class Consciousness: Studies in Marxist Dialectics",
+    "author": "György Lukács, Rodney Livingstone",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Fight Club",
+    "author": "Chuck Palahniuk,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Tristes Tropiques",
+    "author": "Claude Lévi-Strauss, John Weightman, Doreen Weightman",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Killing a King: The Assassination of Yitzhak Rabin and the Remaking of Israel",
+    "author": "Dan Ephron,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Iron Wall: Israel and the Arab World (Norton Paperback)",
+    "author": "Avi Shlaim,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Why Zebras Don't Get Ulcers",
+    "author": "Robert M. Sapolsky,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Journals of Andre Gide, Vol 1: 1889-1924",
+    "author": "André Gide, Justin O'Brien",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Death on the Installment Plan",
+    "author": "Louis-Ferdinand Céline, Ralph Manheim",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Manhood: A Journey from Childhood into the Fierce Order of Virility",
+    "author": "Michel Leiris, Richard Howard, Susan Sontag",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Under the Sign of Saturn: Essays",
+    "author": "Susan Sontag,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "This Business of Living: Diaries 1935-1950",
+    "author": "Cesare Pavese,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Among Women Only",
+    "author": "D.D. Paige, Cesare Pavese",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Mathematics: Its Content, Methods and Meaning (3 Volumes in One) (Dover Books on Mathematics)",
+    "author": "A.D. Aleksandrov, A.N. Kolomogorov, M.A. Lavrent’ev",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The (Mis)Behavior of Markets",
+    "author": "Benoît B. Mandelbrot, Richard L. Hudson",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Behave: The Biology of Humans at Our Best and Worst",
+    "author": "Robert M. Sapolsky,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Against Interpretation and Other Essays",
+    "author": "Susan Sontag,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 0,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "A Primate's Memoir: A Neuroscientist's Unconventional Life Among the Baboons",
+    "author": "Robert M. Sapolsky,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Determined: A Science of Life without Free Will",
+    "author": "Robert M. Sapolsky,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "I'm Glad My Mom Died",
+    "author": "Jennette McCurdy,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "אניהו",
+    "author": "Etgar Keret, אתגר קרת",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Lolita",
+    "author": "Vladimir Nabokov, Craig Raine",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+    "author": "Bessel van der Kolk,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The World of Yesterday",
+    "author": "Stefan Zweig, Harry Zohn",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Chess Story",
+    "author": "Stefan Zweig, Peter Gay, Joel Rotenberg, Стефан Цвайг",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Geek Love",
+    "author": "Katherine Dunn,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "צנורות",
+    "author": "Etgar Keret, אתגר קרת",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut Jr.,",
+    "tags": [],
+    "rating": 5,
+    "Read Count": 2,
+    "reads": [{}, {}]
+  },
+  {
+    "title": "The Great Divorce",
+    "author": "C.S. Lewis,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Glass Castle",
+    "author": "Jeannette Walls,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "סוס אחד נכנס לבר",
+    "author": "David Grossman, דויד גרוסמן",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Pale Fire",
+    "author": "Vladimir Nabokov,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "A Room of One’s Own",
+    "author": "Virginia Woolf,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Meditations on First Philosophy",
+    "author": "René Descartes, Donald A. Cress",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Girl, Interrupted",
+    "author": "Susanna Kaysen,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Antigone (The Theban Plays, #3)",
+    "author": "Sophocles,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Elements of Style",
+    "author": "William Strunk Jr., E.B. White",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "American Psycho",
+    "author": "Bret Easton Ellis,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Persuasion",
+    "author": "Jane Austen,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Man Who Mistook His Wife for a Hat and Other Clinical Tales",
+    "author": "Oliver Sacks,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Handmaid’s Tale (The Handmaid's Tale, #1)",
+    "author": "Margaret Atwood,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Siddhartha",
+    "author": "Hermann Hesse, Hilda Rosner, Zigmantas Ardickas",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "One Flew Over the Cuckoo’s Nest",
+    "author": "Ken Kesey,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez, Gregory Rabassa",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Outsiders",
+    "author": "S.E. Hinton,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky, David McDuff, Joseph Frank",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Hunger Games (The Hunger Games, #1)",
+    "author": "Suzanne Collins,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Giver (The Giver, #1)",
+    "author": "Lois Lowry,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
+    "author": "Dan Ariely,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Sandman, Vol. 1: Preludes & Nocturnes",
+    "author": "Neil Gaiman, Sam Kieth, Mike Dringenberg, Malcolm Jones III, Todd Klein, Karen  Berger, Daniel Vozzo",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Camera Lucida: Reflections on Photography",
+    "author": "Roland Barthes,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Existentialism is a Humanism",
+    "author": "Jean-Paul Sartre, Arlette Elkaïm-Sartre, Annie Cohen-Solal, Carol Macomber",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+    "author": "Douglas R. Hofstadter,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "What If? Serious Scientific Answers to Absurd Hypothetical Questions",
+    "author": "Randall Munroe,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Deep Work: Rules for Focused Success in a Distracted World",
+    "author": "Cal Newport,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Influence: The Psychology of Persuasion",
+    "author": "Robert B. Cialdini,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+    "author": "Matthew Walker,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Freakonomics: A Rogue Economist Explores the Hidden Side of Everything",
+    "author": "Steven D. Levitt, Stephen J. Dubner",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "SPQR: A History of Ancient Rome",
+    "author": "Mary Beard,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Rise and Fall of the Third Reich: A History of Nazi Germany",
+    "author": "William L. Shirer,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Short-Timers",
+    "author": "Gustav Hasford,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Hobbit (The Lord of the Rings, #0)",
+    "author": "J.R.R. Tolkien, Douglas A. Anderson, Michael Hague, Jemima Catlin",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen, Anna Quindlen",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Nausea",
+    "author": "Jean-Paul Sartre, Lloyd Alexander, Hayden Carruth",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change",
+    "author": "Stephen R. Covey, Jim Collins",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
+    "author": "Simon Sinek,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The 4-Hour Workweek",
+    "author": "Timothy Ferriss,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+    "author": "Charles Duhigg,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "I, Robot (Robot, #0.1)",
+    "author": "Isaac Asimov,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Ready Player One (Ready Player One, #1)",
+    "author": "Ernest Cline,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Ender’s Game (Ender's Saga, #1)",
+    "author": "Orson Scott Card,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "A Clockwork Orange",
+    "author": "Anthony Burgess,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Mahabharata",
+    "author": "C. Rajagopalachari, Vālmīki",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Epic of Gilgamesh",
+    "author": "Anonymous, N.K. Sandars, John Maier, Herbert Mason, John H. Marks, Morris Jastrow Jr.",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Negative (Ansel Adams Photography, #2)",
+    "author": "Ansel Adams, Robert Baker",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Camera (Ansel Adams Photography, #1)",
+    "author": "Ansel Adams, Robert Baker",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Green Lights",
+    "author": "Matthew McConaughey,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Quack This Way",
+    "author": "David Foster Wallace, Bryan A. Garner",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Tractatus Logico-Philosophicus",
+    "author": "Ludwig Wittgenstein, David Pears, Brian McGuinness, Bertrand Russell",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Philosophical Investigations",
+    "author": "Ludwig Wittgenstein, G.E.M. Anscombe",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Ethics of Ambiguity",
+    "author": "Simone de Beauvoir, Bernard Frechtman",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century",
+    "author": "Steven Pinker,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Enlightenment Now: The Case for Reason, Science, Humanism, and Progress",
+    "author": "Steven Pinker,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Gervais Principle: The Complete Series, with a Bonus Essay on Office Space (Ribbonfarm Roughs)",
+    "author": "Venkatesh G. Rao,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Cyropaedia Volume 1, books 1-4",
+    "author": "Xenophon, Walter Miller",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Social Contract",
+    "author": "Jean-Jacques Rousseau,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "How to Lie with Statistics",
+    "author": "Darrell Huff, Irving Geis",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "No Logo",
+    "author": "Naomi Klein,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Physics and Beyond: Encounters and Conversations",
+    "author": "Werner Heisenberg, Arnold J. Pomerans, حسین معصومی همدانی, Hossein Najafizadeh (Najafizadeh.org), Hossein Najafizadeh حسین نجفی زاده",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Physics and Philosophy: The Revolution in Modern Science",
+    "author": "Werner Heisenberg, Paul C.W. Davies",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Harry Potter and the Methods of Rationality",
+    "author": "Eliezer Yudkowsky,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Berlin Diary: The Journal of a Foreign Correspondent 1934-1941",
+    "author": "William L. Shirer,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "War and Peace",
+    "author": "Leo Tolstoy, Aylmer Maude, Louise Maude",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Second Sex",
+    "author": "Simone de Beauvoir, H.M. Parshley, Deirdre Bair",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "A Wizard of Earthsea (The Earthsea Cycle, #1)",
+    "author": "Ursula K. Le Guin,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 0,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Righteous Victims: A History of the Zionist-Arab Conflict, 1881-2001",
+    "author": "Benny Morris,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Birth of the Palestinian Refugee Problem Revisited (Cambridge Middle East Studies, Series Number 18)",
+    "author": "Benny Morris,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "1948: The First Arab-Israeli War",
+    "author": "Benny Morris,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Six Days of War: June 1967 and the Making of the Modern Middle East",
+    "author": "Michael B. Oren,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky, Richard Pevear, Larissa Volokhonsky, Borut Kraševec, Ива Николова",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde, Jeffrey Eugenides",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Idiot",
+    "author": "Fyodor Dostoevsky, Anna Brailovsky, Joseph Frank, Constance Garnett",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Critique of Pure Reason",
+    "author": "Immanuel Kant, John Miller Dow Meiklejohn",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Undoing Project: A Friendship That Changed Our Minds",
+    "author": "Michael   Lewis,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Blink: The Power of Thinking Without Thinking",
+    "author": "Malcolm Gladwell, Barry Fox, Irina Henegar",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "When to Rob a Bank: ...And 131 More Warped Suggestions and Well-Intended Rants",
+    "author": "Steven D. Levitt, Stephen J. Dubner",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "How You Say It: Why You Talk the Way You Do—and What It Says About You",
+    "author": "Katherine D. Kinzler,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "SuperFreakonomics: Global Cooling, Patriotic Prostitutes And Why Suicide Bombers Should Buy Life Insurance",
+    "author": "Steven D. Levitt, Stephen J. Dubner",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Talking to Strangers: What We Should Know About the People We Don’t Know",
+    "author": "Malcolm Gladwell,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Modern Romance",
+    "author": "Aziz Ansari, Eric Klinenberg",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Man’s Search for Meaning",
+    "author": "Viktor E. Frankl, Harold S. Kushner, William J. Winslade, Isle Lasch",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Courage to Be Disliked: How to Free Yourself, Change your Life and Achieve Real Happiness",
+    "author": "Ichiro Kishimi, Fumitake Koga",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank, Eleanor Roosevelt, Susan Massotty, Γιάννης Θωμόπουλος, Barbara Mooyaart-Doubleday, Otto H. Frank, Mirjam Pressler",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "No One Is Too Small to Make a Difference",
+    "author": "Greta Thunberg,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
+    "author": "Marie Kondō,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Is This Anything?",
+    "author": "Jerry Seinfeld,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Irrationally yours : On Missing Socks, Pick-up Lines and Other Existential Puzzles",
+    "author": "Dan Ariely, William Haefeli",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Outliers: The Story of Success",
+    "author": "Malcolm Gladwell,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Art of War",
+    "author": "Sun Tzu, Thomas Cleary",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence",
+    "author": "Michael Pollan,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Honest Truth About Dishonesty: How We Lie to Everyone - Especially Ourselves",
+    "author": "Dan Ariely,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need",
+    "author": "Bill  Gates,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Essentialism: The Disciplined Pursuit of Less",
+    "author": "Greg McKeown,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Donald A. Norman,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Index Card: Why Personal Finance Doesn't Have to Be Complicated",
+    "author": "Helaine Olen, Harold Pollack",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "101 Essays That Will Change The Way You Think",
+    "author": "Brianna Wiest,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
+    "author": "Cal Newport,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "First Principles: What America's Founders Learned from the Greeks and Romans and How That Shaped Our Country",
+    "author": "Thomas E. Ricks,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+    "author": "Richard H. Thaler, Cass R. Sunstein",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Architecture of Happiness",
+    "author": "Alain de Botton,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Beyond Good and Evil",
+    "author": "Friedrich Nietzsche, Michael Tanner, R.J. Hollingdale",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "A Man Without a Country",
+    "author": "Kurt Vonnegut Jr., Daniel Simon",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Republic",
+    "author": "Plato, Desmond Lee",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "The Wonderful Adventures of Nils",
+    "author": "Selma Lagerlöf, Thea Kliros, Peter Klusen, Mathilde Mann, Mustafa Yalçıner, Velma Swanston Howard",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "On the Beach",
+    "author": "Nevil Shute,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "World Travel: An Irreverent Guide",
+    "author": "Anthony Bourdain, Laurie Woolever",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom",
+    "author": "Jonathan Haidt,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "First Friends: The Powerful, Unsung (And Unelected) People Who Shaped Our Presidents",
+    "author": "Gary Ginsberg,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Myth of Sisyphus and Other Essays",
+    "author": "Albert Camus, Justin O'Brien",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Where Do We Go from Here: Chaos or Community?",
+    "author": "Martin Luther King Jr.,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "What Patients Say, What Doctors Hear",
+    "author": "Danielle Ofri,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+    "author": "Mark Manson,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Upside of Inequality: How Good Intentions Undermine the Middle Class",
+    "author": "Edward Conard,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Stranger",
+    "author": "Albert Camus, Matthew  Ward",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Chaos: Making a New Science",
+    "author": "James Gleick,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Like Switch: An Ex-FBI Agent's Guide to Influencing, Attracting, and Winning People Over (1) (The Like Switch Series)",
+    "author": "Jack Schafer, Marvin Karlins",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Plague",
+    "author": "Albert Camus, Stuart Gilbert",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Foundation (Foundation, #1)",
+    "author": "Isaac Asimov,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "Catch-22",
+    "author": "Joseph Heller,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Prince",
+    "author": "Niccolò Machiavelli, Rufus Goodwin, Benjamin Martinez, W.K. Marriott, Denis Daly, Μαρία Κασωτάκη",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Flatland: A Romance of Many Dimensions",
+    "author": "Edwin A. Abbott,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Meditations",
+    "author": "Marcus Aurelius, Martin Hammond",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 2,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Armageddon in Retrospect",
+    "author": "Kurt Vonnegut Jr.,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Barking Up the Wrong Tree: The Surprising Science Behind Why Everything You Know About Success Is (Mostly) Wrong",
+    "author": "Eric Barker,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Skin in the Game: The Hidden Asymmetries in Daily Life",
+    "author": "Nassim Nicholas Taleb,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Antifragile: Things That Gain from Disorder",
+    "author": "Nassim Nicholas Taleb,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Black Swan: The Impact of the Highly Improbable",
+    "author": "Nassim Nicholas Taleb, David Chandler, Микола Климчук",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Fooled by Randomness: The Hidden Role of Chance in Life and in the Markets (Incerto)",
+    "author": "Nassim Nicholas Taleb,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Communist Manifesto",
+    "author": "Karl Marx, Friedrich Engels, Leon Trotsky, Samuel Moore, Erkin Özalp, Amanda Lee, Antonio Carlos Braga, Aldrin Alexander Evies, Oqtay Eloğlu",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Pity the Reader: On Writing With Style",
+    "author": "Kurt Vonnegut Jr., Suzanne McConnell",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Cat’s Cradle",
+    "author": "Kurt Vonnegut Jr.,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Creative Act: A Way of Being",
+    "author": "Rick Rubin,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Beware of Pity",
+    "author": "Stefan Zweig, Phyllis Blewitt, Trevor Blewitt",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Regarding the Pain of Others",
+    "author": "Susan Sontag,",
+    "tags": [],
+    "reads": []
+  },
+  {
+    "title": "On Photography",
+    "author": "Susan Sontag,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The 99% Invisible City: A Field Guide to the Hidden World of Everyday Design",
+    "author": "Roman Mars, Kurt Kohlstedt",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Politics Is for Power: How to Move Beyond Political Hobbyism, Take Action, and Make Real Change",
+    "author": "Eitan D. Hersh,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell, Thomas Pynchon",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Trial",
+    "author": "Franz Kafka, Max Brod, Willa Muir, Edwin Muir",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka, Stanley Corngold",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Alice’s Adventures in Wonderland / Through the Looking-Glass",
+    "author": "Lewis Carroll, Martin Gardner, John Tenniel",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry, Richard Howard",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Giving Tree",
+    "author": "Shel Silverstein,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 3,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell, Russell Baker, C.M. Woodhouse",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "The Hitchhiker’s Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+    "author": "Douglas Adams,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Breakfast of Champions",
+    "author": "Kurt Vonnegut Jr.,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 5,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
+  },
+  {
+    "title": "Flowers for Algernon",
+    "author": "Daniel Keyes,",
+    "tags": [],
+    "Read Count": 1,
+    "reads": [
+      {
+        "rating": 4,
+        "date_started": "",
+        "date_finished": ""
+      }
+    ]
   }
 ]

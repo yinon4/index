@@ -41,6 +41,18 @@ TODO
 - https://www.joshwcomeau.com/css/styling-ordered-lists-with-css-counters/#:~:text=Welcome%20to%20web,necessary%20for%20this%3A
 - [ ] make muis, books, movies pages not boring tables but pretty with animations
   - like https://astro-records.pages.dev/
+- audio player
+  - <iframe
+    style="border: 0; width: 400px; height: 120px;"
+    src="https://bandcamp.com/EmbeddedPlayer/album=1994042358/size=large/bgcol=000000/linkcol=0f91ff/tracklist=false/artwork=small/transparent=true/"
+    seamless
+    ><a
+    href="https://crywank.bandcamp.com/album/tomorrow-is-nearly-yesterday-and-everyday-is-stupid">Tomorrow
+    Is Nearly Yesterday And Everyday Is Stupid by Crywank</a></iframe
+  >
+  - can style!!!
+- get data from spotify
+
 
 ---
 
