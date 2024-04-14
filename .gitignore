@@ -1,4 +1,5 @@
 # .github
+.env
 # build output
 dist/
 # generated types
