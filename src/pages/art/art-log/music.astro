@@ -1,0 +1,39 @@
+---
+// import {
+//   byDate,
+//   bySeen,
+//   getDate,
+//   getRating,
+//   getTitle,
+// } from "data/music/functions";
+import albums from "data/music/albums.json";
+import { getArtist, getTitle } from "data/music/functions";
+import { AlbumSchema } from "data/music/types";
+import { parse } from "functions";
+import PostLayout from "layouts/Post.astro";
+
+parse(AlbumSchema, albums);
+// const filteredMovies = albums.filter(bySeen);
+// const sortedMovies = filteredMovies.sort(byDate).reverse();
+---
+
+<PostLayout title="music">
+  <table>
+    <thead>
+      <tr>
+        <th>title</th>
+        <th>artist</th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        albums.map((album) => (
+          <tr>
+            <td>{getTitle(album)}</td>
+            <td style="text-align:center">{getArtist(album)}</td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</PostLayout>
