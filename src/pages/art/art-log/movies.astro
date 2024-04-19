@@ -13,7 +13,7 @@ import PostLayout from "layouts/Post.astro";
 
 parse(MovieSchema, movies);
 const filteredMovies = movies.filter(bySeen);
-const sortedMovies = filteredMovies.sort(byDate).reverse();
+filteredMovies.sort(byDate).reverse();
 ---
 
 <PostLayout title="movies">
@@ -27,7 +27,7 @@ const sortedMovies = filteredMovies.sort(byDate).reverse();
     </thead>
     <tbody>
       {
-        sortedMovies.map((movie) => (
+        filteredMovies.map((movie) => (
           <tr>
             <td>{getTitle(movie)}</td>
             <td style="text-align:center">{getRating(movie)}</td>

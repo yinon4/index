@@ -2,18 +2,24 @@
   {
     "title": "The Federalist Papers",
     "author": "Alexander Hamilton, James Madison, John Jay",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1219-1/{646F8E00-A332-46B6-87DD-D76259CF9EA6}Img100.jpg",
     "reads": [
       {
-        "rating": 3
+        "date_finished": "2024/04/02"
+      },
+      {
+        "date_finished": "2024/03/18"
       }
     ]
   },
   {
     "title": "I'm Thinking of Ending Things",
     "author": "Iain Reid,",
+    "cover": "https://img1.od-cdn.com/ImageType-100/5054-1/{891B9893-B201-4038-AFCD-AE132A9531EA}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2024/03/26"
       }
     ]
   },
@@ -29,9 +35,11 @@
   {
     "title": "Sea of Tranquility",
     "author": "Emily St. John Mandel,",
+    "cover": "https://img3.od-cdn.com/ImageType-100/1191-1/{5B5DAD87-178D-4E43-AB43-254B63B0A7B9}Img100.jpg",
     "reads": [
       {
-        "rating": 2
+        "rating": 2,
+        "date_finished": "2024/03/18"
       }
     ]
   },
@@ -58,9 +66,11 @@
   {
     "title": "Fight Club",
     "author": "Chuck Palahniuk,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1694-1/{94BF8A75-61D6-4082-85D0-CAC917854D53}IMG100.JPG",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2024/02/25"
       }
     ]
   },
@@ -79,9 +89,11 @@
   {
     "title": "Why Zebras Don't Get Ulcers",
     "author": "Robert M. Sapolsky,",
+    "cover": "https://img1.od-cdn.com/ImageType-100/1219-1/{8358C7CF-A029-4DF6-8F04-9FDB6D777E51}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2024/02/24"
       }
     ]
   },
@@ -146,9 +158,11 @@
   {
     "title": "I'm Glad My Mom Died",
     "author": "Jennette McCurdy,",
+    "cover": "https://img3.od-cdn.com/ImageType-100/5054-1/{8A6C7499-FC93-4ACB-A72E-FF3A85DED1A6}IMG100.JPG",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2024/01/28"
       }
     ]
   },
@@ -188,10 +202,13 @@
   {
     "title": "Slaughterhouse-Five",
     "author": "Kurt Vonnegut Jr.,",
-    "rating": 5,
+    "cover": "https://img3.od-cdn.com/ImageType-100/0293-1/{EDEAE7E2-64CD-4028-88D8-448D824A4958}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "date_finished": "2024/01/20"
+      },
+      {
+        "date_finished": "2021/11/05"
       }
     ]
   },
@@ -218,9 +235,11 @@
   {
     "title": "Meditations on First Philosophy",
     "author": "René Descartes, Donald A. Cress",
+    "cover": "https://img1.od-cdn.com/ImageType-100/1694-1/{08EC2A87-503B-4A66-AC17-EFBD9FCDDFEB}IMG100.JPG",
     "reads": [
       {
-        "rating": 3
+        "rating": 3,
+        "date_finished": "2024/01/17"
       }
     ]
   },
@@ -240,9 +259,11 @@
   {
     "title": "The Elements of Style",
     "author": "William Strunk Jr., E.B. White",
+    "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{74646A8C-2E43-4155-B79B-FA333C8D1E4C}IMG100.JPG",
     "reads": [
       {
-        "rating": 5
+        "rating": 5,
+        "date_finished": "2022/04/18"
       }
     ]
   },
@@ -414,7 +435,13 @@
   },
   {
     "title": "Pride and Prejudice",
-    "author": "Jane Austen, Anna Quindlen"
+    "author": "Jane Austen, Anna Quindlen",
+    "cover": "https://img3.od-cdn.com/ImageType-100/2389-1/{6A600B7A-AFDA-4F0F-A32C-5BE178267B0E}Img100.jpg",
+    "reads": [
+      {
+        "date_finished": "2023/12/12"
+      }
+    ]
   },
   {
     "title": "Nausea",
@@ -474,7 +501,13 @@
   },
   {
     "title": "A Clockwork Orange",
-    "author": "Anthony Burgess,"
+    "author": "Anthony Burgess,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/0293-1/{C9693289-D6BB-4581-BED0-3457AB767E51}Img100.jpg",
+    "reads": [
+      {
+        "date_finished": "2021/07/19"
+      }
+    ]
   },
   {
     "title": "Mahabharata",
@@ -806,9 +839,11 @@
   {
     "title": "The Design of Everyday Things",
     "author": "Donald A. Norman,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1219-1/{7021B798-AF83-443A-B36D-728A0CAE0876}Img100.jpg",
     "reads": [
       {
-        "rating": 5
+        "rating": 5,
+        "date_finished": "2021/07/07"
       }
     ]
   },
@@ -860,15 +895,23 @@
   {
     "title": "The Architecture of Happiness",
     "author": "Alain de Botton,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/0887-1/{BFE98B9B-4D64-48D3-A1D4-28D3603B203D}Img100.jpg",
     "reads": [
       {
-        "rating": 3
+        "rating": 3,
+        "date_finished": "2021/08/23"
       }
     ]
   },
   {
     "title": "Beyond Good and Evil",
-    "author": "Friedrich Nietzsche, Michael Tanner, R.J. Hollingdale"
+    "author": "Friedrich Nietzsche, Michael Tanner, R.J. Hollingdale",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1219-1/{5BAEDD35-DE0F-4323-868D-4D73C6095539}Img100.jpg",
+    "reads": [
+      {
+        "date_finished": "2021/08/25"
+      }
+    ]
   },
   {
     "title": "A Man Without a Country",
@@ -881,23 +924,33 @@
   },
   {
     "title": "The Republic",
-    "author": "Plato, Desmond Lee"
+    "author": "Plato, Desmond Lee",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1088-1/{0EDDBBD4-7A9F-4F44-A495-94EE86190CE9}Img100.jpg",
+    "reads": [
+      {
+        "date_finished": "2021/09/10"
+      }
+    ]
   },
   {
     "title": "The Wonderful Adventures of Nils",
     "author": "Selma Lagerlöf, Thea Kliros, Peter Klusen, Mathilde Mann, Mustafa Yalçıner, Velma Swanston Howard",
+    "cover": "https://img3.od-cdn.com/ImageType-100/2389-1/{AD43CE8B-EE42-4FAC-8453-E587E5BAB3F6}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2021/09/18"
       }
     ]
   },
   {
     "title": "On the Beach",
     "author": "Nevil Shute,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1694-1/{CA6FE91F-14F8-404C-883C-F06181EC13C3}IMG100.JPG",
     "reads": [
       {
-        "rating": 2
+        "rating": 2,
+        "date_finished": "2021/09/23"
       }
     ]
   },
@@ -931,9 +984,13 @@
   {
     "title": "The Myth of Sisyphus and Other Essays",
     "author": "Albert Camus, Justin O'Brien",
+    "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{40A85D7D-3821-4DE4-9424-7BEFBDDF3B7B}IMG100.JPG",
     "reads": [
       {
-        "rating": 5
+        "date_finished": "2023/10/11"
+      },
+      {
+        "date_finished": "2022/03/11"
       }
     ]
   },
@@ -949,9 +1006,11 @@
   {
     "title": "What Patients Say, What Doctors Hear",
     "author": "Danielle Ofri,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1191-1/{09AF92B2-B261-4820-B3FA-DE37042944BF}Img100.jpg",
     "reads": [
       {
-        "rating": 3
+        "rating": 3,
+        "date_finished": "2022/05/09"
       }
     ]
   },
@@ -976,9 +1035,11 @@
   {
     "title": "The Stranger",
     "author": "Albert Camus, Matthew  Ward",
+    "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{9FE519D4-7D46-40EA-8DA9-3D42C85D04F1}IMG100.JPG",
     "reads": [
       {
-        "rating": 5
+        "rating": 5,
+        "date_finished": "2023/10/14"
       }
     ]
   },
@@ -1003,9 +1064,13 @@
   {
     "title": "The Plague",
     "author": "Albert Camus, Stuart Gilbert",
+    "cover": "https://img1.od-cdn.com/ImageType-100/1694-1/{989FC225-1819-4A5D-B9E7-76E618764B96}IMG100.JPG",
     "reads": [
       {
-        "rating": 4
+        "date_finished": "2024/01/18"
+      },
+      {
+        "date_finished": "2023/07/18"
       }
     ]
   },
@@ -1025,9 +1090,11 @@
   {
     "title": "The Prince",
     "author": "Niccolò Machiavelli, Rufus Goodwin, Benjamin Martinez, W.K. Marriott, Denis Daly, Μαρία Κασωτάκη",
+    "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{8814AE67-288B-4921-90D1-BA55230071B1}Img100.jpg",
     "reads": [
       {
-        "rating": 3
+        "rating": 3,
+        "date_finished": "2023/08/26"
       }
     ]
   },
@@ -1043,18 +1110,22 @@
   {
     "title": "Meditations",
     "author": "Marcus Aurelius, Martin Hammond",
+    "cover": "https://img2.od-cdn.com/ImageType-100/0992-1/{00F6BC30-1F48-487F-88B1-232AD5EF4787}Img100.jpg",
     "reads": [
       {
-        "rating": 2
+        "rating": 2,
+        "date_finished": "2023/09/23"
       }
     ]
   },
   {
     "title": "Armageddon in Retrospect",
     "author": "Kurt Vonnegut Jr.,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/0887-1/{A40593D8-017C-4C9C-8285-6E317C87ECC5}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2023/09/18"
       }
     ]
   },
@@ -1088,9 +1159,11 @@
   {
     "title": "The Black Swan: The Impact of the Highly Improbable",
     "author": "Nassim Nicholas Taleb, David Chandler, Микола Климчук",
+    "cover": "https://img2.od-cdn.com/ImageType-100/1191-1/{E9E66BCF-E049-4AC3-9BDB-CA1BE771E433}Img100.jpg",
     "reads": [
       {
-        "rating": 5
+        "rating": 5,
+        "date_finished": "2023/09/04"
       }
     ]
   },
@@ -1142,18 +1215,22 @@
   {
     "title": "Beware of Pity",
     "author": "Stefan Zweig, Phyllis Blewitt, Trevor Blewitt",
+    "cover": "https://img1.od-cdn.com/ImageType-100/0111-1/{E7E491B6-F482-4343-8E57-86384E3C8DCA}Img100.jpg",
     "reads": [
       {
-        "rating": 5
+        "rating": 5,
+        "date_finished": "2023/11/18"
       }
     ]
   },
   {
     "title": "The Old Man and the Sea",
     "author": "Ernest Hemingway,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/5054-1/{19A5C56B-E4C4-4052-A808-E88E1A4714E8}Img100.jpg",
     "reads": [
       {
-        "rating": 3
+        "rating": 3,
+        "date_finished": "2023/11/18"
       }
     ]
   },
@@ -1164,9 +1241,11 @@
   {
     "title": "On Photography",
     "author": "Susan Sontag,",
+    "cover": "https://img2.od-cdn.com/ImageType-100/2390-1/{B27B2335-2DB4-4B82-BA11-24EB0E18E0F1}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2023/12/05"
       }
     ]
   },
@@ -1200,9 +1279,11 @@
   {
     "title": "The Trial",
     "author": "Franz Kafka, Max Brod, Willa Muir, Edwin Muir",
+    "cover": "https://img3.od-cdn.com/ImageType-100/1219-1/{53E66074-CF1E-4DE7-B5A5-3E622F14D765}Img100.jpg",
     "reads": [
       {
-        "rating": 3
+        "rating": 3,
+        "date_finished": "2023/12/24"
       }
     ]
   },
@@ -1227,9 +1308,11 @@
   {
     "title": "The Little Prince",
     "author": "Antoine de Saint-Exupéry, Richard Howard",
+    "cover": "https://img2.od-cdn.com/ImageType-100/4769-1/{7C027592-A67C-4572-A2A9-27A94B2E9A78}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2021/06/23"
       }
     ]
   },
@@ -1254,9 +1337,11 @@
   {
     "title": "Animal Farm",
     "author": "George Orwell, Russell Baker, C.M. Woodhouse",
+    "cover": "https://img2.od-cdn.com/ImageType-100/0887-1/{61963FAD-1F22-442B-9B80-4FEB16F602F8}Img100.jpg",
     "reads": [
       {
-        "rating": 4
+        "rating": 4,
+        "date_finished": "2023/11/22"
       }
     ]
   },
@@ -1290,9 +1375,16 @@
   {
     "title": "Breakfast of Champions",
     "author": "Kurt Vonnegut Jr.,",
+    "cover": "https://img1.od-cdn.com/ImageType-100/0293-1/{9868C3F3-E3C8-4F32-9CCE-7B5E0D907E55}Img100.jpg",
     "reads": [
       {
-        "rating": 5
+        "date_finished": "2023/11/12"
+      },
+      {
+        "date_finished": "2023/06/13"
+      },
+      {
+        "date_finished": "2023/05/17"
       }
     ]
   },

@@ -7,14 +7,14 @@
 //   getTitle,
 // } from "data/music/functions";
 import albums from "data/music/albums.json";
-import { getArtist, getTitle } from "data/music/functions";
+import { byArtist, getArtist, getTitle } from "data/music/functions";
 import { AlbumSchema } from "data/music/types";
 import { parse } from "functions";
 import PostLayout from "layouts/Post.astro";
 
 parse(AlbumSchema, albums);
 // const filteredMovies = albums.filter(bySeen);
-// const sortedMovies = filteredMovies.sort(byDate).reverse();
+albums.sort(byArtist);
 ---
 
 <PostLayout title="music">
