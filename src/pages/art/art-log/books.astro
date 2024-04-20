@@ -8,12 +8,14 @@ import {
   getTitle,
   byAuthor,
   readFilter,
+  getDateFinished,
+  byDateFinished,
 } from "data/books/functions";
 import { parse } from "functions";
 
 parse(BookSchema, books);
 const filterBooks = books.filter(readFilter);
-const sortedBooks = filterBooks.sort(byAuthor);
+const sortedBooks = filterBooks.sort(byDateFinished).reverse();
 ---
 
 <PostLayout title="books">
@@ -31,7 +33,7 @@ const sortedBooks = filterBooks.sort(byAuthor);
           <tr>
             <td>{getTitle(book)}</td>
             <td>{getAuthors(book)}</td>
-            <td style="text-align:center">{book.reads[0].date_finished}</td>
+            <td style="text-align:center">{getDateFinished(book)}</td>
           </tr>
         ))
       }

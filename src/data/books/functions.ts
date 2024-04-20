@@ -14,7 +14,7 @@ export const getTitle: get<Book> = ({ title }) => title.toLocaleLowerCase();
 export const getAuthors: get<Book> = ({ author }) => author.toLocaleLowerCase();
 export const getDateFinished: get<Book> = ({ reads }) => {
     if (!reads) return "";
-    return reads[0].date_finished;
+    return getLast(reads).date_finished;
 }
 export const byAuthor: sort<Book> = ({ author: a }, { author: b }) =>
     a.localeCompare(b);
@@ -25,6 +25,15 @@ export const byRating: sort<Book> = (bookA, bookB) => {
     const a = getRating(bookA).toString();
     const b = getRating(bookB).toString();
     return a.localeCompare(b);
+};
+
+export const byDateFinished: sort<Book> = (bookA, bookB) => {
+    const a = new Date(getDateFinished(bookA));
+    const b = new Date(getDateFinished(bookB));
+    if (a.toString() === "Invalid Date") return -1;
+    if (b.toString() === "Invalid Date") return 1;
+
+    return a > b ? 1 : -1;
 };
 
 
