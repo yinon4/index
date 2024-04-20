@@ -1,5 +1,5 @@
 ---
-// import { fade, ViewTransitions } from "astro:transitions";
+import { fade, ViewTransitions } from "astro:transitions";
 import Footer from "components/Footer.astro";
 import Header, { type Props as HeaderProps } from "components/Header.astro";
 import "global.css";
@@ -12,7 +12,7 @@ export interface Props extends HeaderProps {
 const { title, description, ...headerProps } = Astro.props;
 ---
 
-<html lang="en" id="top">
+<html lang="en" id="top" transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,8 +22,7 @@ const { title, description, ...headerProps } = Astro.props;
       type="image/svg+xml"
     />
     <title>{title}</title>
-    <!-- <ViewTransitions /> -->
-    <!-- feel slow need to be faster -->
+    <ViewTransitions />
 
     <meta name="description" content={description || title} />
   </head>
