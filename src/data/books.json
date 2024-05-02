@@ -1,7 +1,6 @@
 [
   {
     "title": "The Federalist Papers",
-    "author": "Alexander Hamilton, James Madison, John Jay",
     "cover": "https://img2.od-cdn.com/ImageType-100/1219-1/{646F8E00-A332-46B6-87DD-D76259CF9EA6}Img100.jpg",
     "reads": [
       {
@@ -14,7 +13,6 @@
   },
   {
     "title": "I'm Thinking of Ending Things",
-    "author": "Iain Reid",
     "cover": "https://img1.od-cdn.com/ImageType-100/5054-1/{891B9893-B201-4038-AFCD-AE132A9531EA}Img100.jpg",
     "reads": [
       {
@@ -25,7 +23,6 @@
   },
   {
     "title": "The Problems of Philosophy",
-    "author": "Bertrand Russell",
     "reads": [
       {
         "rating": 3,
@@ -35,7 +32,6 @@
   },
   {
     "title": "Sea of Tranquility",
-    "author": "Emily St. John Mandel",
     "cover": "https://img3.od-cdn.com/ImageType-100/1191-1/{5B5DAD87-178D-4E43-AB43-254B63B0A7B9}Img100.jpg",
     "reads": [
       {
@@ -45,28 +41,22 @@
     ]
   },
   {
-    "title": "Making Movies",
-    "author": "Sidney Lumet"
+    "title": "Making Movies"
   },
   {
-    "title": "Martereau",
-    "author": "Nathalie Sarraute"
+    "title": "Martereau"
   },
   {
-    "title": "The Thief's Journal",
-    "author": "Jean Genet, Bernard Frechtman, Jean-Paul Sartre"
+    "title": "The Thief's Journal"
   },
   {
-    "title": "Our Lady of the Flowers",
-    "author": "Jean Genet, Jean-Paul Sartre, Bernard Frechtman"
+    "title": "Our Lady of the Flowers"
   },
   {
-    "title": "History and Class Consciousness",
-    "author": "György Lukács, Rodney Livingstone"
+    "title": "History and Class Consciousness"
   },
   {
     "title": "Fight Club",
-    "author": "Chuck Palahniuk",
     "cover": "https://img2.od-cdn.com/ImageType-100/1694-1/{94BF8A75-61D6-4082-85D0-CAC917854D53}IMG100.JPG",
     "reads": [
       {
@@ -76,20 +66,16 @@
     ]
   },
   {
-    "title": "Tristes Tropiques",
-    "author": "Claude Lévi-Strauss, John Weightman, Doreen Weightman"
+    "title": "Tristes Tropiques"
   },
   {
-    "title": "Killing a King",
-    "author": "Dan Ephron"
+    "title": "Killing a King"
   },
   {
-    "title": "The Iron Wall",
-    "author": "Avi Shlaim"
+    "title": "The Iron Wall"
   },
   {
     "title": "Why Zebras Don't Get Ulcers",
-    "author": "Robert M. Sapolsky",
     "cover": "https://img1.od-cdn.com/ImageType-100/1219-1/{8358C7CF-A029-4DF6-8F04-9FDB6D777E51}Img100.jpg",
     "reads": [
       {
@@ -99,40 +85,31 @@
     ]
   },
   {
-    "title": "The Journals of Andre Gide, Vol 1: 1889-1924",
-    "author": "André Gide, Justin O'Brien"
+    "title": "The Journals of Andre Gide, Vol 1: 1889-1924"
   },
   {
-    "title": "Death on the Installment Plan",
-    "author": "Louis-Ferdinand Céline, Ralph Manheim"
+    "title": "Death on the Installment Plan"
   },
   {
-    "title": "Manhood",
-    "author": "Michel Leiris, Richard Howard, Susan Sontag"
+    "title": "Manhood"
   },
   {
-    "title": "Under the Sign of Saturn: Essays",
-    "author": "Susan Sontag"
+    "title": "Under the Sign of Saturn: Essays"
   },
   {
-    "title": "This Business of Living: Diaries 1935-1950",
-    "author": "Cesare Pavese"
+    "title": "This Business of Living: Diaries 1935-1950"
   },
   {
-    "title": "Among Women Only",
-    "author": "D.D. Paige, Cesare Pavese"
+    "title": "Among Women Only"
   },
   {
-    "title": "Mathematics: Its Content, Methods and Meaning",
-    "author": "A.D. Aleksandrov, A.N. Kolomogorov, M.A. Lavrent’ev"
+    "title": "Mathematics: Its Content, Methods and Meaning"
   },
   {
-    "title": "The (Mis)Behavior of Markets",
-    "author": "Benoît B. Mandelbrot, Richard L. Hudson"
+    "title": "The (Mis)Behavior of Markets"
   },
   {
     "title": "Behave",
-    "author": "Robert M. Sapolsky",
     "reads": [
       {
         "rating": 3,
@@ -142,7 +119,6 @@
   },
   {
     "title": "Against Interpretation and Other Essays",
-    "author": "Susan Sontag",
     "reads": [
       {
         "rating": 0
@@ -150,16 +126,13 @@
     ]
   },
   {
-    "title": "A Primate's Memoir",
-    "author": "Robert M. Sapolsky"
+    "title": "A Primate's Memoir"
   },
   {
-    "title": "Determined",
-    "author": "Robert M. Sapolsky"
+    "title": "Determined"
   },
   {
     "title": "I'm Glad My Mom Died",
-    "author": "Jennette McCurdy",
     "cover": "https://img3.od-cdn.com/ImageType-100/5054-1/{8A6C7499-FC93-4ACB-A72E-FF3A85DED1A6}IMG100.JPG",
     "reads": [
       {
@@ -169,16 +142,13 @@
     ]
   },
   {
-    "title": "אניהו",
-    "author": "Etgar Keret, אתגר קרת"
+    "title": "אניהו"
   },
   {
-    "title": "Lolita",
-    "author": "Vladimir Nabokov, Craig Raine"
+    "title": "Lolita"
   },
   {
     "title": "The Body Keeps the Score",
-    "author": "Bessel van der Kolk",
     "reads": [
       {
         "rating": 3,
@@ -187,24 +157,19 @@
     ]
   },
   {
-    "title": "The World of Yesterday",
-    "author": "Stefan Zweig, Harry Zohn"
+    "title": "The World of Yesterday"
   },
   {
-    "title": "Chess Story",
-    "author": "Stefan Zweig, Peter Gay, Joel Rotenberg, Стефан Цвайг"
+    "title": "Chess Story"
   },
   {
-    "title": "Geek Love",
-    "author": "Katherine Dunn"
+    "title": "Geek Love"
   },
   {
-    "title": "צנורות",
-    "author": "Etgar Keret, אתגר קרת"
+    "title": "צנורות"
   },
   {
     "title": "Slaughterhouse-Five",
-    "author": "Kurt Vonnegut Jr.",
     "cover": "https://img3.od-cdn.com/ImageType-100/0293-1/{EDEAE7E2-64CD-4028-88D8-448D824A4958}Img100.jpg",
     "reads": [
       {
@@ -216,28 +181,22 @@
     ]
   },
   {
-    "title": "The Great Divorce",
-    "author": "C.S. Lewis"
+    "title": "The Great Divorce"
   },
   {
-    "title": "The Glass Castle",
-    "author": "Jeannette Walls"
+    "title": "The Glass Castle"
   },
   {
-    "title": "סוס אחד נכנס לבר",
-    "author": "David Grossman, דויד גרוסמן"
+    "title": "סוס אחד נכנס לבר"
   },
   {
-    "title": "Pale Fire",
-    "author": "Vladimir Nabokov"
+    "title": "Pale Fire"
   },
   {
-    "title": "A Room of One’s Own",
-    "author": "Virginia Woolf"
+    "title": "A Room of One’s Own"
   },
   {
     "title": "Meditations on First Philosophy",
-    "author": "René Descartes",
     "cover": "https://img1.od-cdn.com/ImageType-100/1694-1/{08EC2A87-503B-4A66-AC17-EFBD9FCDDFEB}IMG100.JPG",
     "reads": [
       {
@@ -247,12 +206,10 @@
     ]
   },
   {
-    "title": "Girl, Interrupted",
-    "author": "Susanna Kaysen"
+    "title": "Girl, Interrupted"
   },
   {
     "title": "Antigone",
-    "author": "Sophocles",
     "reads": [
       {
         "rating": 2
@@ -261,7 +218,6 @@
   },
   {
     "title": "The Elements of Style",
-    "author": "William Strunk Jr., E.B. White",
     "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{74646A8C-2E43-4155-B79B-FA333C8D1E4C}IMG100.JPG",
     "reads": [
       {
@@ -271,36 +227,28 @@
     ]
   },
   {
-    "title": "American Psycho",
-    "author": "Bret Easton Ellis"
+    "title": "American Psycho"
   },
   {
-    "title": "Persuasion",
-    "author": "Jane Austen"
+    "title": "Persuasion"
   },
   {
-    "title": "The Man Who Mistook His Wife for a Hat",
-    "author": "Oliver Sacks"
+    "title": "The Man Who Mistook His Wife for a Hat"
   },
   {
-    "title": "The Handmaid’s Tale",
-    "author": "Margaret Atwood"
+    "title": "The Handmaid’s Tale"
   },
   {
-    "title": "Siddhartha",
-    "author": "Hermann Hesse, Hilda Rosner, Zigmantas Ardickas"
+    "title": "Siddhartha"
   },
   {
-    "title": "One Flew Over the Cuckoo’s Nest",
-    "author": "Ken Kesey"
+    "title": "One Flew Over the Cuckoo’s Nest"
   },
   {
-    "title": "One Hundred Years of Solitude",
-    "author": "Gabriel García Márquez, Gregory Rabassa"
+    "title": "One Hundred Years of Solitude"
   },
   {
     "title": "The Outsiders",
-    "author": "S.E. Hinton",
     "reads": [
       {
         "rating": 4
@@ -309,7 +257,6 @@
   },
   {
     "title": "The Secret Garden",
-    "author": "Frances Hodgson Burnett",
     "reads": [
       {
         "rating": 3
@@ -317,16 +264,13 @@
     ]
   },
   {
-    "title": "Crime and Punishment",
-    "author": "Fyodor Dostoevsky"
+    "title": "Crime and Punishment"
   },
   {
-    "title": "The Hunger Games",
-    "author": "Suzanne Collins"
+    "title": "The Hunger Games"
   },
   {
     "title": "The Giver",
-    "author": "Lois Lowry",
     "reads": [
       {
         "rating": 3
@@ -335,7 +279,6 @@
   },
   {
     "title": "Predictably Irrational",
-    "author": "Dan Ariely",
     "reads": [
       {
         "rating": 5
@@ -343,24 +286,19 @@
     ]
   },
   {
-    "title": "The Sandman, Vol. 1",
-    "author": "Neil Gaiman"
+    "title": "The Sandman, Vol. 1"
   },
   {
-    "title": "Camera Lucida",
-    "author": "Roland Barthes"
+    "title": "Camera Lucida"
   },
   {
-    "title": "Existentialism is a Humanism",
-    "author": "Jean-Paul Sartre"
+    "title": "Existentialism is a Humanism"
   },
   {
-    "title": "Gödel, Escher, Bach",
-    "author": "Douglas R. Hofstadter"
+    "title": "Gödel, Escher, Bach"
   },
   {
     "title": "What If?",
-    "author": "Randall Munroe",
     "reads": [
       {
         "rating": 4
@@ -369,7 +307,6 @@
   },
   {
     "title": "Deep Work",
-    "author": "Cal Newport",
     "reads": [
       {
         "rating": 3
@@ -378,7 +315,6 @@
   },
   {
     "title": "Influence",
-    "author": "Robert B. Cialdini",
     "reads": [
       {
         "rating": 4
@@ -387,7 +323,6 @@
   },
   {
     "title": "Why We Sleep",
-    "author": "Matthew Walker",
     "reads": [
       {
         "rating": 3,
@@ -397,7 +332,6 @@
   },
   {
     "title": "Freakonomics",
-    "author": "Steven D. Levitt, Stephen J. Dubner",
     "reads": [
       {
         "rating": 4
@@ -405,16 +339,13 @@
     ]
   },
   {
-    "title": "SPQR",
-    "author": "Mary Beard"
+    "title": "SPQR"
   },
   {
-    "title": "The Rise and Fall of the Third Reich",
-    "author": "William L. Shirer"
+    "title": "The Rise and Fall of the Third Reich"
   },
   {
     "title": "Sapiens",
-    "author": "Yuval Noah Harari",
     "reads": [
       {
         "rating": 4
@@ -422,24 +353,19 @@
     ]
   },
   {
-    "title": "The Short-Timers",
-    "author": "Gustav Hasford"
+    "title": "The Short-Timers"
   },
   {
-    "title": "Of Mice and Men",
-    "author": "John Steinbeck"
+    "title": "Of Mice and Men"
   },
   {
-    "title": "Brave New World",
-    "author": "Aldous Huxley"
+    "title": "Brave New World"
   },
   {
-    "title": "The Hobbit",
-    "author": "J.R.R. Tolkien"
+    "title": "The Hobbit"
   },
   {
     "title": "Pride and Prejudice",
-    "author": "Jane Austen",
     "cover": "https://img3.od-cdn.com/ImageType-100/2389-1/{6A600B7A-AFDA-4F0F-A32C-5BE178267B0E}Img100.jpg",
     "reads": [
       {
@@ -448,12 +374,10 @@
     ]
   },
   {
-    "title": "Nausea",
-    "author": "Jean-Paul Sartre"
+    "title": "Nausea"
   },
   {
     "title": "The 7 Habits of Highly Effective People",
-    "author": "Stephen R. Covey, Jim Collins",
     "reads": [
       {
         "rating": 3
@@ -462,7 +386,6 @@
   },
   {
     "title": "Start with Why",
-    "author": "Simon Sinek",
     "reads": [
       {
         "rating": 3
@@ -471,7 +394,6 @@
   },
   {
     "title": "The 4-Hour Workweek",
-    "author": "Timothy Ferriss",
     "reads": [
       {
         "rating": 3
@@ -480,7 +402,6 @@
   },
   {
     "title": "The Power of Habit",
-    "author": "Charles Duhigg",
     "reads": [
       {
         "rating": 3
@@ -488,24 +409,19 @@
     ]
   },
   {
-    "title": "I, Robot",
-    "author": "Isaac Asimov"
+    "title": "I, Robot"
   },
   {
-    "title": "Fahrenheit 451",
-    "author": "Ray Bradbury"
+    "title": "Fahrenheit 451"
   },
   {
-    "title": "Ready Player One",
-    "author": "Ernest Cline"
+    "title": "Ready Player One"
   },
   {
-    "title": "Ender’s Game",
-    "author": "Orson Scott Card"
+    "title": "Ender’s Game"
   },
   {
     "title": "A Clockwork Orange",
-    "author": "Anthony Burgess",
     "cover": "https://img2.od-cdn.com/ImageType-100/0293-1/{C9693289-D6BB-4581-BED0-3457AB767E51}Img100.jpg",
     "reads": [
       {
@@ -514,64 +430,49 @@
     ]
   },
   {
-    "title": "Mahabharata",
-    "author": "C. Rajagopalachari, Vālmīki"
+    "title": "Mahabharata"
   },
   {
-    "title": "The Epic of Gilgamesh",
-    "author": "Anonymous"
+    "title": "The Epic of Gilgamesh"
   },
   {
-    "title": "The Negative",
-    "author": "Ansel Adams, Robert Baker"
+    "title": "The Negative"
   },
   {
-    "title": "The Camera",
-    "author": "Ansel Adams, Robert Baker"
+    "title": "The Camera"
   },
   {
-    "title": "Green Lights",
-    "author": "Matthew McConaughey"
+    "title": "Green Lights"
   },
   {
-    "title": "Quack This Way",
-    "author": "David Foster Wallace, Bryan A. Garner"
+    "title": "Quack This Way"
   },
   {
-    "title": "Tractatus Logico-Philosophicus",
-    "author": "Ludwig Wittgenstein, Bertrand Russell"
+    "title": "Tractatus Logico-Philosophicus"
   },
   {
-    "title": "Philosophical Investigations",
-    "author": "Ludwig Wittgenstein"
+    "title": "Philosophical Investigations"
   },
   {
-    "title": "The Ethics of Ambiguity",
-    "author": "Simone de Beauvoir"
+    "title": "The Ethics of Ambiguity"
   },
   {
-    "title": "The Sense of Style",
-    "author": "Steven Pinker"
+    "title": "The Sense of Style"
   },
   {
-    "title": "Enlightenment Now",
-    "author": "Steven Pinker"
+    "title": "Enlightenment Now"
   },
   {
-    "title": "The Gervais Principle",
-    "author": "Venkatesh G. Rao"
+    "title": "The Gervais Principle"
   },
   {
-    "title": "Cyropaedia Volume 1",
-    "author": "Xenophon"
+    "title": "Cyropaedia Volume 1"
   },
   {
-    "title": "The Social Contract",
-    "author": "Jean-Jacques Rousseau"
+    "title": "The Social Contract"
   },
   {
     "title": "How to Win Friends and Influence People",
-    "author": "Dale Carnegie",
     "reads": [
       {
         "rating": 4
@@ -579,76 +480,58 @@
     ]
   },
   {
-    "title": "How to Lie with Statistics",
-    "author": "Darrell Huff, Irving Geis"
+    "title": "How to Lie with Statistics"
   },
   {
-    "title": "No Logo",
-    "author": "Naomi Klein"
+    "title": "No Logo"
   },
   {
-    "title": "Physics and Beyond",
-    "author": "Werner Heisenberg"
+    "title": "Physics and Beyond"
   },
   {
-    "title": "Physics and Philosophy",
-    "author": "Werner Heisenberg"
+    "title": "Physics and Philosophy"
   },
   {
-    "title": "Harry Potter and the Methods of Rationality",
-    "author": "Eliezer Yudkowsky"
+    "title": "Harry Potter and the Methods of Rationality"
   },
   {
-    "title": "Berlin Diary",
-    "author": "William L. Shirer"
+    "title": "Berlin Diary"
   },
   {
-    "title": "War and Peace",
-    "author": "Leo Tolstoy"
+    "title": "War and Peace"
   },
   {
-    "title": "The Second Sex",
-    "author": "Simone de Beauvoir"
+    "title": "The Second Sex"
   },
   {
-    "title": "A Wizard of Earthsea",
-    "author": "Ursula K. Le Guin"
+    "title": "A Wizard of Earthsea"
   },
   {
-    "title": "Righteous Victims",
-    "author": "Benny Morris"
+    "title": "Righteous Victims"
   },
   {
-    "title": "The Birth of the Palestinian Refugee Problem",
-    "author": "Benny Morris"
+    "title": "The Birth of the Palestinian Refugee Problem"
   },
   {
-    "title": "1948",
-    "author": "Benny Morris"
+    "title": "1948"
   },
   {
-    "title": "Six Days of War",
-    "author": "Michael B. Oren"
+    "title": "Six Days of War"
   },
   {
-    "title": "The Brothers Karamazov",
-    "author": "Fyodor Dostoevsky"
+    "title": "The Brothers Karamazov"
   },
   {
-    "title": "The Picture of Dorian Gray",
-    "author": "Oscar Wilde"
+    "title": "The Picture of Dorian Gray"
   },
   {
-    "title": "The Idiot",
-    "author": "Fyodor Dostoevsky"
+    "title": "The Idiot"
   },
   {
-    "title": "The Critique of Pure Reason",
-    "author": "Immanuel Kant"
+    "title": "The Critique of Pure Reason"
   },
   {
     "title": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
     "reads": [
       {
         "rating": 5
@@ -657,7 +540,6 @@
   },
   {
     "title": "The Undoing Project",
-    "author": "Michael Lewis",
     "reads": [
       {
         "rating": 3
@@ -666,7 +548,6 @@
   },
   {
     "title": "Blink",
-    "author": "Malcolm Gladwell",
     "reads": [
       {
         "rating": 3
@@ -675,7 +556,6 @@
   },
   {
     "title": "When to Rob a Bank",
-    "author": "Steven D. Levitt, Stephen J. Dubner",
     "reads": [
       {
         "rating": 4,
@@ -685,7 +565,6 @@
   },
   {
     "title": "How You Say It",
-    "author": "Katherine D. Kinzler",
     "reads": [
       {
         "rating": 4,
@@ -695,7 +574,6 @@
   },
   {
     "title": "SuperFreakonomics",
-    "author": "Steven D. Levitt, Stephen J. Dubner",
     "reads": [
       {
         "rating": 4,
@@ -705,7 +583,6 @@
   },
   {
     "title": "Talking to Strangers",
-    "author": "Malcolm Gladwell",
     "reads": [
       {
         "rating": 3,
@@ -715,7 +592,6 @@
   },
   {
     "title": "Modern Romance",
-    "author": "Aziz Ansari",
     "reads": [
       {
         "rating": 3,
@@ -725,7 +601,6 @@
   },
   {
     "title": "Man’s Search for Meaning",
-    "author": "Viktor E. Frankl",
     "reads": [
       {
         "rating": 4,
@@ -735,7 +610,6 @@
   },
   {
     "title": "The Courage to Be Disliked",
-    "author": "Ichiro Kishimi, Fumitake Koga",
     "reads": [
       {
         "rating": 4,
@@ -745,7 +619,6 @@
   },
   {
     "title": "The Diary of a Young Girl",
-    "author": "Anne Frank",
     "reads": [
       {
         "rating": 4,
@@ -755,7 +628,6 @@
   },
   {
     "title": "No One Is Too Small to Make a Difference",
-    "author": "Greta Thunberg",
     "reads": [
       {
         "rating": 3,
@@ -765,7 +637,6 @@
   },
   {
     "title": "Spark Joy",
-    "author": "Marie Kondō",
     "reads": [
       {
         "rating": 4,
@@ -775,7 +646,6 @@
   },
   {
     "title": "Is This Anything?",
-    "author": "Jerry Seinfeld",
     "reads": [
       {
         "rating": 4,
@@ -785,7 +655,6 @@
   },
   {
     "title": "Irrationally yours",
-    "author": "Dan Ariely",
     "reads": [
       {
         "rating": 2,
@@ -795,7 +664,6 @@
   },
   {
     "title": "Outliers",
-    "author": "Malcolm Gladwell",
     "reads": [
       {
         "rating": 3,
@@ -805,7 +673,6 @@
   },
   {
     "title": "The Art of War",
-    "author": "Sun Tzu",
     "reads": [
       {
         "rating": 3,
@@ -815,7 +682,6 @@
   },
   {
     "title": "How to Change Your Mind",
-    "author": "Michael Pollan",
     "reads": [
       {
         "rating": 4,
@@ -825,7 +691,6 @@
   },
   {
     "title": "The Honest Truth About Dishonesty",
-    "author": "Dan Ariely",
     "reads": [
       {
         "rating": 3,
@@ -835,7 +700,6 @@
   },
   {
     "title": "How to Avoid a Climate Disaster",
-    "author": "Bill  Gates",
     "reads": [
       {
         "rating": 4,
@@ -845,7 +709,6 @@
   },
   {
     "title": "Essentialism",
-    "author": "Greg McKeown",
     "reads": [
       {
         "rating": 3,
@@ -855,7 +718,6 @@
   },
   {
     "title": "The Design of Everyday Things",
-    "author": "Donald A. Norman",
     "cover": "https://img2.od-cdn.com/ImageType-100/1219-1/{7021B798-AF83-443A-B36D-728A0CAE0876}Img100.jpg",
     "reads": [
       {
@@ -866,7 +728,6 @@
   },
   {
     "title": "The Index Card",
-    "author": "Helaine Olen, Harold Pollack",
     "reads": [
       {
         "rating": 3,
@@ -876,7 +737,6 @@
   },
   {
     "title": "101 Essays That Will Change The Way You Think",
-    "author": "Brianna Wiest",
     "reads": [
       {
         "rating": 2,
@@ -886,7 +746,6 @@
   },
   {
     "title": "Digital Minimalism",
-    "author": "Cal Newport",
     "reads": [
       {
         "rating": 3,
@@ -896,7 +755,6 @@
   },
   {
     "title": "First Principles",
-    "author": "Thomas E. Ricks",
     "reads": [
       {
         "rating": 3,
@@ -906,7 +764,6 @@
   },
   {
     "title": "Nudge",
-    "author": "Richard H. Thaler, Cass R. Sunstein",
     "reads": [
       {
         "rating": 4,
@@ -916,7 +773,6 @@
   },
   {
     "title": "The Architecture of Happiness",
-    "author": "Alain de Botton",
     "cover": "https://img2.od-cdn.com/ImageType-100/0887-1/{BFE98B9B-4D64-48D3-A1D4-28D3603B203D}Img100.jpg",
     "reads": [
       {
@@ -927,7 +783,6 @@
   },
   {
     "title": "Beyond Good and Evil",
-    "author": "Friedrich Nietzsche, Michael Tanner, R.J. Hollingdale",
     "cover": "https://img2.od-cdn.com/ImageType-100/1219-1/{5BAEDD35-DE0F-4323-868D-4D73C6095539}Img100.jpg",
     "reads": [
       {
@@ -937,7 +792,6 @@
   },
   {
     "title": "A Man Without a Country",
-    "author": "Kurt Vonnegut Jr., Daniel Simon",
     "reads": [
       {
         "rating": 4,
@@ -951,7 +805,6 @@
   },
   {
     "title": "The Republic",
-    "author": "Plato",
     "cover": "https://img2.od-cdn.com/ImageType-100/1088-1/{0EDDBBD4-7A9F-4F44-A495-94EE86190CE9}Img100.jpg",
     "reads": [
       {
@@ -961,7 +814,6 @@
   },
   {
     "title": "The Wonderful Adventures of Nils",
-    "author": "Selma Lagerlöf",
     "cover": "https://img3.od-cdn.com/ImageType-100/2389-1/{AD43CE8B-EE42-4FAC-8453-E587E5BAB3F6}Img100.jpg",
     "reads": [
       {
@@ -972,7 +824,6 @@
   },
   {
     "title": "On the Beach",
-    "author": "Nevil Shute",
     "cover": "https://img2.od-cdn.com/ImageType-100/1694-1/{CA6FE91F-14F8-404C-883C-F06181EC13C3}IMG100.JPG",
     "reads": [
       {
@@ -983,7 +834,6 @@
   },
   {
     "title": "World Travel",
-    "author": "Anthony Bourdain",
     "reads": [
       {
         "rating": 2
@@ -992,7 +842,6 @@
   },
   {
     "title": "The Happiness Hypothesis",
-    "author": "Jonathan Haidt",
     "reads": [
       {
         "rating": 3,
@@ -1002,7 +851,6 @@
   },
   {
     "title": "First Friends",
-    "author": "Gary Ginsberg",
     "reads": [
       {
         "rating": 4,
@@ -1012,7 +860,6 @@
   },
   {
     "title": "The Myth of Sisyphus and Other Essays",
-    "author": "Albert Camus",
     "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{40A85D7D-3821-4DE4-9424-7BEFBDDF3B7B}IMG100.JPG",
     "reads": [
       {
@@ -1027,7 +874,6 @@
   },
   {
     "title": "Where Do We Go from Here?",
-    "author": "Martin Luther King Jr.",
     "reads": [
       {
         "rating": 3,
@@ -1037,7 +883,6 @@
   },
   {
     "title": "What Patients Say, What Doctors Hear",
-    "author": "Danielle Ofri",
     "cover": "https://img2.od-cdn.com/ImageType-100/1191-1/{09AF92B2-B261-4820-B3FA-DE37042944BF}Img100.jpg",
     "reads": [
       {
@@ -1048,7 +893,6 @@
   },
   {
     "title": "The Subtle Art of Not Giving a F*ck",
-    "author": "Mark Manson",
     "reads": [
       {
         "rating": 2,
@@ -1058,7 +902,6 @@
   },
   {
     "title": "The Upside of Inequality",
-    "author": "Edward Conard",
     "reads": [
       {
         "rating": 3,
@@ -1068,7 +911,6 @@
   },
   {
     "title": "The Stranger",
-    "author": "Albert Camus",
     "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{9FE519D4-7D46-40EA-8DA9-3D42C85D04F1}IMG100.JPG",
     "reads": [
       {
@@ -1083,7 +925,6 @@
   },
   {
     "title": "Chaos",
-    "author": "James Gleick",
     "reads": [
       {
         "rating": 5,
@@ -1093,7 +934,6 @@
   },
   {
     "title": "The Like Switch",
-    "author": "Jack Schafer, Marvin Karlins",
     "reads": [
       {
         "rating": 3,
@@ -1103,7 +943,6 @@
   },
   {
     "title": "The Plague",
-    "author": "Albert Camus",
     "cover": "https://img1.od-cdn.com/ImageType-100/1694-1/{989FC225-1819-4A5D-B9E7-76E618764B96}IMG100.JPG",
     "reads": [
       {
@@ -1117,12 +956,10 @@
     ]
   },
   {
-    "title": "Foundation",
-    "author": "Isaac Asimov"
+    "title": "Foundation"
   },
   {
     "title": "Catch-22",
-    "author": "Joseph Heller",
     "reads": [
       {
         "rating": 5,
@@ -1132,7 +969,6 @@
   },
   {
     "title": "The Prince",
-    "author": "Niccolò Machiavelli",
     "cover": "https://img3.od-cdn.com/ImageType-100/1694-1/{8814AE67-288B-4921-90D1-BA55230071B1}Img100.jpg",
     "reads": [
       {
@@ -1143,7 +979,6 @@
   },
   {
     "title": "Flatland",
-    "author": "Edwin A. Abbott",
     "reads": [
       {
         "rating": 3,
@@ -1153,7 +988,6 @@
   },
   {
     "title": "Meditations",
-    "author": "Marcus Aurelius",
     "cover": "https://img2.od-cdn.com/ImageType-100/0992-1/{00F6BC30-1F48-487F-88B1-232AD5EF4787}Img100.jpg",
     "reads": [
       {
@@ -1164,7 +998,6 @@
   },
   {
     "title": "Armageddon in Retrospect",
-    "author": "Kurt Vonnegut Jr.",
     "cover": "https://img2.od-cdn.com/ImageType-100/0887-1/{A40593D8-017C-4C9C-8285-6E317C87ECC5}Img100.jpg",
     "reads": [
       {
@@ -1175,7 +1008,6 @@
   },
   {
     "title": "Barking Up the Wrong Tree",
-    "author": "Eric Barker",
     "reads": [
       {
         "rating": 3,
@@ -1185,7 +1017,6 @@
   },
   {
     "title": "Skin in the Game",
-    "author": "Nassim Nicholas Taleb",
     "reads": [
       {
         "rating": 4,
@@ -1195,7 +1026,6 @@
   },
   {
     "title": "Antifragile",
-    "author": "Nassim Nicholas Taleb",
     "reads": [
       {
         "rating": 4,
@@ -1205,7 +1035,6 @@
   },
   {
     "title": "The Black Swan",
-    "author": "Nassim Nicholas Taleb",
     "cover": "https://img2.od-cdn.com/ImageType-100/1191-1/{E9E66BCF-E049-4AC3-9BDB-CA1BE771E433}Img100.jpg",
     "reads": [
       {
@@ -1216,7 +1045,6 @@
   },
   {
     "title": "Fooled by Randomness",
-    "author": "Nassim Nicholas Taleb",
     "reads": [
       {
         "rating": 3,
@@ -1226,7 +1054,6 @@
   },
   {
     "title": "The Communist Manifesto",
-    "author": "Karl Marx, Friedrich Engels, Leon Trotsky",
     "reads": [
       {
         "rating": 3,
@@ -1236,7 +1063,6 @@
   },
   {
     "title": "Pity the Reader",
-    "author": "Kurt Vonnegut Jr., Suzanne McConnell",
     "reads": [
       {
         "rating": 3,
@@ -1246,7 +1072,6 @@
   },
   {
     "title": "Cat’s Cradle",
-    "author": "Kurt Vonnegut Jr.",
     "reads": [
       {
         "rating": 3,
@@ -1256,7 +1081,6 @@
   },
   {
     "title": "The Creative Act",
-    "author": "Rick Rubin",
     "reads": [
       {
         "rating": 3,
@@ -1266,7 +1090,6 @@
   },
   {
     "title": "Beware of Pity",
-    "author": "Stefan Zweig",
     "cover": "https://img1.od-cdn.com/ImageType-100/0111-1/{E7E491B6-F482-4343-8E57-86384E3C8DCA}Img100.jpg",
     "reads": [
       {
@@ -1277,7 +1100,6 @@
   },
   {
     "title": "The Old Man and the Sea",
-    "author": "Ernest Hemingway",
     "cover": "https://img2.od-cdn.com/ImageType-100/5054-1/{19A5C56B-E4C4-4052-A808-E88E1A4714E8}Img100.jpg",
     "reads": [
       {
@@ -1287,12 +1109,10 @@
     ]
   },
   {
-    "title": "Regarding the Pain of Others",
-    "author": "Susan Sontag"
+    "title": "Regarding the Pain of Others"
   },
   {
     "title": "On Photography",
-    "author": "Susan Sontag",
     "cover": "https://img2.od-cdn.com/ImageType-100/2390-1/{B27B2335-2DB4-4B82-BA11-24EB0E18E0F1}Img100.jpg",
     "reads": [
       {
@@ -1303,7 +1123,6 @@
   },
   {
     "title": "The 99% Invisible City",
-    "author": "Roman Mars, Kurt Kohlstedt",
     "reads": [
       {
         "rating": 4,
@@ -1313,7 +1132,6 @@
   },
   {
     "title": "Politics Is for Power",
-    "author": "Eitan D. Hersh",
     "reads": [
       {
         "rating": 5,
@@ -1323,7 +1141,6 @@
   },
   {
     "title": "1984",
-    "author": "George Orwell",
     "reads": [
       {
         "rating": 5,
@@ -1333,7 +1150,6 @@
   },
   {
     "title": "The Trial",
-    "author": "Franz Kafka",
     "cover": "https://img3.od-cdn.com/ImageType-100/1219-1/{53E66074-CF1E-4DE7-B5A5-3E622F14D765}Img100.jpg",
     "reads": [
       {
@@ -1344,7 +1160,6 @@
   },
   {
     "title": "The Metamorphosis",
-    "author": "Franz Kafka",
     "reads": [
       {
         "rating": 4,
@@ -1354,7 +1169,6 @@
   },
   {
     "title": "Alice’s Adventures in Wonderland",
-    "author": "Lewis Carroll",
     "reads": [
       {
         "rating": 4,
@@ -1364,7 +1178,6 @@
   },
   {
     "title": "The Little Prince",
-    "author": "Antoine de Saint-Exupéry",
     "cover": "https://img2.od-cdn.com/ImageType-100/4769-1/{7C027592-A67C-4572-A2A9-27A94B2E9A78}Img100.jpg",
     "reads": [
       {
@@ -1375,7 +1188,6 @@
   },
   {
     "title": "The Giving Tree",
-    "author": "Shel Silverstein",
     "reads": [
       {
         "rating": 5
@@ -1384,7 +1196,6 @@
   },
   {
     "title": "To Kill a Mockingbird",
-    "author": "Harper Lee",
     "reads": [
       {
         "rating": 3
@@ -1393,7 +1204,6 @@
   },
   {
     "title": "Animal Farm",
-    "author": "George Orwell",
     "cover": "https://img2.od-cdn.com/ImageType-100/0887-1/{61963FAD-1F22-442B-9B80-4FEB16F602F8}Img100.jpg",
     "reads": [
       {
@@ -1404,7 +1214,6 @@
   },
   {
     "title": "Thinking, Fast and Slow",
-    "author": "Daniel Kahneman",
     "reads": [
       {
         "rating": 4,
@@ -1414,7 +1223,6 @@
   },
   {
     "title": "The Alchemist",
-    "author": "Paulo Coelho",
     "reads": [
       {
         "rating": 5,
@@ -1424,7 +1232,6 @@
   },
   {
     "title": "The Hitchhiker’s Guide to the Galaxy",
-    "author": "Douglas Adams",
     "reads": [
       {
         "rating": 5
@@ -1433,7 +1240,6 @@
   },
   {
     "title": "Breakfast of Champions",
-    "author": "Kurt Vonnegut Jr.",
     "cover": "https://img1.od-cdn.com/ImageType-100/0293-1/{9868C3F3-E3C8-4F32-9CCE-7B5E0D907E55}Img100.jpg",
     "reads": [
       {
@@ -1449,7 +1255,6 @@
   },
   {
     "title": "Flowers for Algernon",
-    "author": "Daniel Keyes",
     "reads": [
       {
         "rating": 4,

@@ -31,19 +31,11 @@ export const getFolderContent = (folderPath: string) =>
     .filter((post) => isChildPath(folderPath, post.slug))
     .map((post) => createLink(post as CollectionEntry<"blog">)); // ?
 
-export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
-  link.text === "..."
-    ? 1
-    : prev.text === "..."
-      ? -1
-      : link.text.localeCompare(prev.text),
-);
-
-export const getLast = (arr: any[]) => arr[arr.length - 1];
-
-export const parse = (schema: any, data: any[], print = false) => {
-  data.forEach((dat) => {
-    if (print) console.log(dat);
-    schema.parse(dat);
-  });
-}
+export const sortLinks = (links: Link[]) =>
+  links.sort((link, prev) =>
+    link.text === "..."
+      ? 1
+      : prev.text === "..."
+        ? -1
+        : link.text.localeCompare(prev.text),
+  );
