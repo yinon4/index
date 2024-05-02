@@ -4,8 +4,6 @@ title: dev
 
 TODO
 
-- [ ] known bugs?
-  - [ ] if /asdf/asfd is 404, back will go to /asdf (also 404)
 - [ ] what data to make public?
   - [ ] what to keep private?
 - [ ] sound like

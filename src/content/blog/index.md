@@ -1,5 +1,5 @@
 ---
-title: index of / index
+title: index of
 ---
 
 personal
