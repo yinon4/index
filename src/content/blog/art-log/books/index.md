@@ -2,7 +2,7 @@
 title: books
 ---
 
-[edit](https://github.com/yinon4/index/blob/main/src/content/blog/art/art-log/books/index.md)
+[edit](https://github.com/yinon4/index/blob/main/src/content/blog/art-log/books/index.md)
 
 | title | author  | date       | rating |
 | :---- | :------ | :--------- | :----- |

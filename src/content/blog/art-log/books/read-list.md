@@ -2,7 +2,7 @@
 title: read list
 ---
 
-[edit](https://github.com/yinon4/index/blob/main/src/content/blog/art/art-log/books/read-list.md)
+[edit](https://github.com/yinon4/index/blob/main/src/content/blog/art-log/books/read-list.md)
 
 | title | author  |
 | :---- | :------ |
