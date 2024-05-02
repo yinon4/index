@@ -2,4 +2,4 @@
 title: art
 ---
 
-art and stufff
+art and stuff
