@@ -1,15 +1,15 @@
 ---
 import { ViewTransitions } from "astro:transitions";
-import Footer from "components/Footer.astro";
+import Footer, { type Props as FooterProps } from "components/Footer.astro";
 import Header, { type Props as HeaderProps } from "components/Header.astro";
 import "global.css";
 
-export interface Props extends HeaderProps {
+export interface Props extends HeaderProps, FooterProps {
   title: string;
   description?: string;
 }
 
-const { title, description, ...headerProps } = Astro.props;
+const { title, description, ...headerFooterProps } = Astro.props;
 ---
 
 <html lang="en" id="top" transition:animate="none">
@@ -29,11 +29,11 @@ const { title, description, ...headerProps } = Astro.props;
   </head>
   <body>
     <main>
-      <Header {...headerProps} />
+      <Header {...headerFooterProps} />
       <content>
         <slot />
       </content>
-      <Footer />
+      <Footer {...headerFooterProps} />
     </main>
   </body>
 </html>

@@ -1,18 +1,24 @@
-<footer><div>bottom.</div> <a href="#top">top?</a></footer>
+---
+export interface Props {
+  path: string;
+}
+const { path } = Astro.props;
+---
+
+<footer>
+  <a href={`https://github.com/yinon4/index/blob/main/src/content/blog/${path}`}
+    >edit</a
+  >
+  <div>bottom.</div>
+  <a href="#top">top?</a>
+</footer>
 <style>
   footer {
-    height: 100vh;
-    position: relative;
-  }
-  div {
-    position: absolute;
-    bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
     width: 100%;
-    text-align: center;
-  }
-  a {
-    position: absolute;
-    bottom: 1rem;
-    right: 0;
+    height: 100%;
+    padding-bottom: 1em;
   }
 </style>
