@@ -9,7 +9,7 @@ export interface Props extends HeaderProps, FooterProps {
   description?: string;
 }
 
-const { title, description, ...headerFooterProps } = Astro.props;
+const { title, description, ...rest } = Astro.props;
 ---
 
 <html lang="en" id="top" transition:animate="none">
@@ -29,11 +29,11 @@ const { title, description, ...headerFooterProps } = Astro.props;
   </head>
   <body>
     <main>
-      <Header {...headerFooterProps} />
+      <Header {...rest} />
       <content>
         <slot />
       </content>
-      <Footer {...headerFooterProps} />
+      <Footer {...rest} />
     </main>
   </body>
 </html>
