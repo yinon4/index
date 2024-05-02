@@ -1,5 +1,9 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import type { Link } from "./types";
+
+type Link = {
+  href: string;
+  text: string;
+};
 
 const createLink = (post: CollectionEntry<"blog">): Link => ({
   href: `${import.meta.env.BASE_URL}/${post.slug}`,
