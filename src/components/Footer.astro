@@ -1,13 +1,13 @@
 ---
 export interface Props {
-  path: string;
+  editPath: string;
 }
-const { path } = Astro.props;
+const { editPath } = Astro.props;
 const githubPath = "https://github.com/yinon4/index/blob/main/src/content/blog";
 ---
 
 <footer>
-  <a href={`${githubPath}/${path}`}>edit</a>
+  <a href={`${githubPath}/${editPath}`}>edit</a>
   <div>bottom.</div>
   <a href="#top">top?</a>
 </footer>

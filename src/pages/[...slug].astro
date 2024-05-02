@@ -22,6 +22,11 @@ const {
 const { Content } = await render();
 ---
 
-<Post title={title} description={title} links={sortLinks(links)} path={path}>
+<Post
+  title={title}
+  description={title}
+  links={sortLinks(links)}
+  editPath={path}
+>
   <Content />
 </Post>
