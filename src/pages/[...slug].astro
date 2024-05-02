@@ -8,6 +8,8 @@ export const getStaticPaths = async () =>
     props: { ...entry, links: getFolderContent(entry.slug) },
   }));
 
+console.log(Astro.url);
+
 const {
   render,
   links,
@@ -17,6 +19,7 @@ const {
 const { Content } = await render();
 ---
 
+{Astro.url.pathname}
 <Post title={title} description={title} links={sortLinks(links)}>
   <Content />
 </Post>
