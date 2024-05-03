@@ -1,5 +1,5 @@
 ---
-import { blog, getFolderContent, sortLinks } from "functions";
+import { blog, getFolderContent } from "functions";
 import Post from "layouts/Post.astro";
 
 export const getStaticPaths = async () =>
@@ -22,11 +22,6 @@ const {
 const { Content } = await render();
 ---
 
-<Post
-  title={title}
-  description={title}
-  links={sortLinks(links)}
-  editPath={path}
->
+<Post title={title} description={title} links={links} editPath={path}>
   <Content />
 </Post>

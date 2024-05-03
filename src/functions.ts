@@ -8,9 +8,7 @@ export const blog = ((await getCollection("blog")) ?? []).map(
   }),
 );
 
-type Post = typeof blog[number];
-
-const createLink = (post: Post): Link => ({
+const createLink = (post: typeof blog[number]): Link => ({
   href: `${import.meta.env.BASE_URL}/${post.slug}`,
   text: post.data.title,
 });
@@ -30,12 +28,3 @@ export const getFolderContent = (folderPath: string) =>
   blog
     .filter((post) => isChildPath(folderPath, post.slug))
     .map((post) => createLink(post));
-
-export const sortLinks = (links: Link[]) =>
-  links.sort((link, prev) =>
-    link.text === "..."
-      ? 1
-      : prev.text === "..."
-        ? -1
-        : link.text.localeCompare(prev.text),
-  );

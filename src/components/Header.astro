@@ -10,6 +10,14 @@ export interface Props {
 
 const { links } = Astro.props;
 
+links.sort((link, prev) =>
+  link.text === "..."
+    ? 1
+    : prev.text === "..."
+      ? -1
+      : link.text.localeCompare(prev.text),
+);
+
 const path = Astro.url.pathname.replace(/\/$/, "");
 let backref = path.split("/").slice(0, -1).join("/");
 const isHome = backref === "";
