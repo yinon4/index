@@ -1,6 +1,6 @@
 ---
 import { blog, getFolderContent } from "functions";
-import Post from "layouts/Post.astro";
+import Base from "layouts/Base.astro";
 
 export const getStaticPaths = async () =>
   blog.map((entry) => ({
@@ -22,6 +22,6 @@ const {
 const { Content } = await render();
 ---
 
-<Post title={title} links={links} editPath={path}>
+<Base title={title} links={links} editPath={path}>
   <Content />
-</Post>
+</Base>

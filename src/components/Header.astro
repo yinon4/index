@@ -1,10 +1,10 @@
 ---
 export type Link = {
-  href: string;
+  href: string; // stricter type ?
   text: string;
 };
 
-export interface Props {
+interface Props {
   links?: Link[];
 }
 
