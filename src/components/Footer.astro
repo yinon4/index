@@ -1,13 +1,13 @@
 ---
 interface Props {
-  editPath: string;
+  path: string; // stricter type ?
 }
-const { editPath } = Astro.props;
-const githubPath = "https://github.com/yinon4/index/blob/main/src/content/blog";
+const { path } = Astro.props;
+const editPath = "https://github.com/yinon4/index/blob/main/src/content/blog";
 ---
 
 <footer>
-  <a href={`${githubPath}/${editPath}`}>edit</a>
+  <a href={`${editPath}/${path}`}>edit</a>
   <div>bottom.</div>
   <a href="#top">top?</a>
 </footer>

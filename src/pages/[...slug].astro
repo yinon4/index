@@ -12,16 +12,9 @@ export const getStaticPaths = async () =>
     },
   }));
 
-const {
-  render,
-  links,
-  path,
-  data: { title },
-} = Astro.props;
-
-const { Content } = await render();
+const { Content } = await Astro.props.render();
 ---
 
-<Base title={title} links={links} editPath={path}>
+<Base title={Astro.props.data.title} {...Astro.props}>
   <Content />
 </Base>
