@@ -2,6 +2,6 @@
 title: watch list
 ---
 
-| title        |
-| ------------ |
-| the prestige |
+| title        | director |
+| :----------- | :------- |
+| the prestige | nolan    |
