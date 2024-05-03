@@ -26,10 +26,15 @@
     --x: #000000;
   }
 }
+html,
+main,
+body {
+  height: 100%;
+}
 
 body {
   max-width: 65ch;
-  margin: 1rem auto;
+  margin: 0rem auto;
   padding: 0 1rem;
   font:
     1.25rem -apple-system,

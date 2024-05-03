@@ -1,21 +1,22 @@
 ---
-import { fade, ViewTransitions } from "astro:transitions";
-import Footer from "components/Footer.astro";
+import { ViewTransitions } from "astro:transitions";
+import Footer, { type Props as FooterProps } from "components/Footer.astro";
 import Header, { type Props as HeaderProps } from "components/Header.astro";
 import "global.css";
 
-export interface Props extends HeaderProps {
+export interface Props extends HeaderProps, FooterProps {
   title: string;
   description?: string;
 }
 
-const { title, description, ...headerProps } = Astro.props;
+const { title, description, ...rest } = Astro.props;
 ---
 
 <html lang="en" id="top" transition:animate="none">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
     <link
       rel="icon"
       href={`${import.meta.env.BASE_URL}/grey-icon.svg?`}
@@ -28,11 +29,11 @@ const { title, description, ...headerProps } = Astro.props;
   </head>
   <body>
     <main>
-      <Header {...headerProps} />
+      <Header {...rest} />
       <content>
         <slot />
       </content>
-      <Footer />
+      <Footer {...rest} />
     </main>
   </body>
 </html>

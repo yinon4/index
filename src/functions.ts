@@ -1,5 +1,5 @@
 import { getCollection, type CollectionEntry } from "astro:content";
-import type { Link } from "./types";
+import type { Link } from "components/Header.astro";
 
 const createLink = (post: CollectionEntry<"blog">): Link => ({
   href: `${import.meta.env.BASE_URL}/${post.slug}`,
@@ -31,19 +31,11 @@ export const getFolderContent = (folderPath: string) =>
     .filter((post) => isChildPath(folderPath, post.slug))
     .map((post) => createLink(post as CollectionEntry<"blog">)); // ?
 
-export const sortLinks = (links: Link[]) => links.sort((link, prev) =>
-  link.text === "..."
-    ? 1
-    : prev.text === "..."
-      ? -1
-      : link.text.localeCompare(prev.text),
-);
-
-export const getLast = (arr: any[]) => arr[arr.length - 1];
-
-export const parse = (schema: any, data: any[], print = false) => {
-  data.forEach((dat) => {
-    if (print) console.log(dat);
-    schema.parse(dat);
-  });
-}
+export const sortLinks = (links: Link[]) =>
+  links.sort((link, prev) =>
+    link.text === "..."
+      ? 1
+      : prev.text === "..."
+        ? -1
+        : link.text.localeCompare(prev.text),
+  );

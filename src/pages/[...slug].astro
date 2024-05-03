@@ -5,18 +5,28 @@ import Post from "layouts/Post.astro";
 export const getStaticPaths = async () =>
   blog.map((entry) => ({
     params: { slug: entry.slug },
-    props: { ...entry, links: getFolderContent(entry.slug) },
+    props: {
+      ...entry,
+      links: getFolderContent(entry.slug),
+      path: entry.id,
+    },
   }));
 
 const {
   render,
   links,
+  path,
   data: { title },
 } = Astro.props;
 
 const { Content } = await render();
 ---
 
-<Post title={title} description={title} links={sortLinks(links)}>
+<Post
+  title={title}
+  description={title}
+  links={sortLinks(links)}
+  editPath={path}
+>
   <Content />
 </Post>

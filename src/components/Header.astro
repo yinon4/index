@@ -1,6 +1,8 @@
 ---
-import { slide } from "astro:transitions";
-import type { Link } from "types";
+export type Link = {
+  href: string;
+  text: string;
+};
 
 export interface Props {
   links?: Link[];
@@ -35,6 +37,7 @@ const isHome = backref === "";
     display: flex;
     justify-content: space-between;
     padding-bottom: 2rem;
+    padding-top: 1rem;
   }
   div.links {
     flex-grow: 1;
