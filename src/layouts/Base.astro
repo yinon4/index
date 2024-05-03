@@ -6,10 +6,9 @@ import "global.css";
 
 export interface Props extends HeaderProps, FooterProps {
   title: string;
-  description?: string;
 }
 
-const { title, description, ...rest } = Astro.props;
+const { title, ...rest } = Astro.props;
 ---
 
 <html lang="en" id="top" transition:animate="none">
@@ -24,8 +23,6 @@ const { title, description, ...rest } = Astro.props;
     />
     <title>{title}</title>
     <ViewTransitions />
-
-    <meta name="description" content={description || title} />
   </head>
   <body>
     <main>
