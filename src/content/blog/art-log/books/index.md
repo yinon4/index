@@ -2,7 +2,11 @@
 title: books
 ---
 
-| title | author  | date       | rating |
-| :---- | :------ | :--------- | :----- |
-| book1 | author1 | 2020-06-02 | 4      |
-| book2 | author2 | 2024-05-02 | 3      |
+| title | author  | review                                                      |
+| :---- | :------ | :---------------------------------------------------------- |
+| book1 | author1 | it was ok, nothing special. i didnt like the part where xyz |
+| book2 | author2 | review [^1]                                                 |
+
+
+[^1]: looooooooooooooooooooooooooooooooooooooooooooooooong review
+

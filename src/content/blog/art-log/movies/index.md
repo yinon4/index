@@ -2,7 +2,7 @@
 title: movies
 ---
 
-| title | date       | rating |
-| ----- | ---------- | ------ |
-| movie | 2024-02-06 | 5      |
-| phone movie | may 3 | review instead |
+| title       | review         |
+| ----------- | -------------- |
+| movie       | i liked it     |
+| phone movie | review instead |
