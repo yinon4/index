@@ -19,7 +19,7 @@ links.sort((link, prev) =>
 );
 
 const path = Astro.url.pathname.replace(/\/$/, "");
-let backref = path.split("/").slice(0, -1).join("/");
+const backref = path.split("/").slice(0, -1).join("/");
 const isHome = backref === "";
 ---
 
