@@ -1,19 +1,19 @@
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import type { Link } from "components/Header.astro";
-
-const createLink = (post: CollectionEntry<"blog">): Link => ({
-  href: `${import.meta.env.BASE_URL}/${post.slug}`,
-  text: post.data.title,
-});
-
-const normalizeIndexSlug = (slug: string) => (slug === "index" ? "" : slug);
 
 export const blog = ((await getCollection("blog")) ?? []).map(
   ({ slug, ...entry }) => ({
-    slug: normalizeIndexSlug(slug),
+    slug: slug === "index" ? "" : slug,
     ...entry,
   }),
 );
+
+type Post = typeof blog[number];
+
+const createLink = (post: Post): Link => ({
+  href: `${import.meta.env.BASE_URL}/${post.slug}`,
+  text: post.data.title,
+});
 
 const countSlashes = (path: string) => {
   if (path === "") return -1;
@@ -29,7 +29,7 @@ const isChildPath = (parentPath: string, path: string) =>
 export const getFolderContent = (folderPath: string) =>
   blog
     .filter((post) => isChildPath(folderPath, post.slug))
-    .map((post) => createLink(post as CollectionEntry<"blog">)); // ?
+    .map((post) => createLink(post));
 
 export const sortLinks = (links: Link[]) =>
   links.sort((link, prev) =>
