@@ -18,14 +18,14 @@ links.sort((link, prev) =>
       : link.text.localeCompare(prev.text),
 );
 
-const path = Astro.url.pathname;
-const backref = path.split("/").slice(0, -1).join("/") || "/";
+// Remove trailing slash
+const path = Astro.url.pathname.replace(/\/$/, "");
 
-const isHome = path === import.meta.env.BASE_URL;
+const isHome = !path;
 ---
 
 <nav>
-  {!isHome && <a href={backref}>← back</a>}
+  {!isHome && <a href={path + "/.."}>← back</a>}
   {
     !!links && (
       <div class="links">
