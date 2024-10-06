@@ -3,7 +3,7 @@ import type { Link } from "components/Header.astro";
 
 export const blog = ((await getCollection("blog")) ?? []).map(
   ({ slug, ...entry }) => ({
-    slug: slug === "index" ? "/" : slug,
+    slug,
     ...entry,
   }),
 );
