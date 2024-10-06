@@ -8,8 +8,8 @@ export const blog = ((await getCollection("blog")) ?? []).map(
   }),
 );
 
-const createLink = (post: typeof blog[number]): Link => ({
-  href: `${import.meta.env.BASE_URL}/${post.slug}`,
+const createLink = (post: (typeof blog)[number]): Link => ({
+  href: `${import.meta.env.BASE_URL}${post.slug}`,
   text: post.data.title,
 });
 

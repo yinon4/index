@@ -18,9 +18,10 @@ links.sort((link, prev) =>
       : link.text.localeCompare(prev.text),
 );
 
-const path = Astro.url.pathname.replace(/\/$/, "");
-const backref = path.split("/").slice(0, -1).join("/");
-const isHome = backref === "";
+const path = Astro.url.pathname;
+const backref = path.split("/").slice(0, -1).join("/") || "/";
+
+const isHome = path === import.meta.env.BASE_URL;
 ---
 
 <nav>

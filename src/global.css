@@ -1,4 +1,7 @@
 :root {
+  height: auto;
+  min-height: 100vh;
+
   --z: #000000;
   --i: #1a1a1a;
   --ii: #333333;

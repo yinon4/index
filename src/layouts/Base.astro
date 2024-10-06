@@ -34,7 +34,15 @@ const { title, ...rest } = Astro.props;
       <content>
         <slot />
       </content>
-      <Footer {...rest} />
     </main>
+    <Footer {...rest} />
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        justify-content: space-between;
+      }
+    </style>
   </body>
 </html>
