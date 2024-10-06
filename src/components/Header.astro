@@ -18,8 +18,6 @@ links.sort((link, prev) =>
       : link.text.localeCompare(prev.text),
 );
 
-console.log(links);
-
 // Remove trailing slash
 const path = Astro.url.pathname.replace(/\/$/, "");
 
