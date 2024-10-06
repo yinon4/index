@@ -18,6 +18,8 @@ links.sort((link, prev) =>
       : link.text.localeCompare(prev.text),
 );
 
+console.log(links);
+
 // Remove trailing slash
 const path = Astro.url.pathname.replace(/\/$/, "");
 
@@ -25,7 +27,7 @@ const isHome = !path;
 ---
 
 <nav>
-  {!isHome && <a href={path + "/.."}>← back</a>}
+  {!isHome && <a href="../">← back</a>}
   {
     !!links && (
       <div class="links">

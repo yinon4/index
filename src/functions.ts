@@ -3,13 +3,13 @@ import type { Link } from "components/Header.astro";
 
 export const blog = ((await getCollection("blog")) ?? []).map(
   ({ slug, ...entry }) => ({
-    slug: slug === "index" ? "" : slug,
+    slug: slug === "index" ? "/" : slug,
     ...entry,
   }),
 );
 
 const createLink = (post: (typeof blog)[number]): Link => ({
-  href: `${import.meta.env.BASE_URL}${post.slug}`,
+  href: post.slug.split("/").pop() + "/",
   text: post.data.title,
 });
 
